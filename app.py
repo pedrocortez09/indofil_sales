@@ -43,6 +43,8 @@ produto_filtro = st.sidebar.multiselect('Selecione um Produto', df1['produto_ger
 
 tab1, tab2, tab3, tab4 = st.tabs(['Planilha' ,'Faturamento', 'Produto', 'Mapa'])
 
+
+# ========================== PRIMEIRA ABA - PLANILHA =======================================================================
 with tab1:
     with st.container():
         st.header('Planilha de Vendas')
@@ -74,6 +76,8 @@ with tab1:
             st.markdown(f'## {quantidade_vendas_formatado} kg')              
 
 
+
+# ========================== SEGUNDA ABA - FATURAMENTO =======================================================================
 with tab2:
     with st.container():
         st.header('Faturamento durante o ano')
@@ -85,6 +89,14 @@ with tab2:
         fig.update_traces(textposition="top left")
         st.plotly_chart(fig, use_container_width=True)
 
+    with st.container():
+        aux = data.loc[data['ano']==2023, :]
+        aux1 = aux.groupby('produto_geral')['total'].sum().reset_index().sort_values('total', ascending=False)
+        aux1['total_formatted'] = aux1['total'].apply(format_total)
+        fig = px.bar(aux1, x='produto_geral', y='total_formatted', text='total_formatted', title='Faturamento por Produto')
+        fig.update_layout( xaxis_title='Produto',  yaxis_title='Faturamento')
+        st.plotly_chart(fig, use_container_width=True)
+
 
     with st.container():
         aux = data.loc[data['ano'] == 2023, :]
@@ -94,6 +106,8 @@ with tab2:
         fig.update_layout( xaxis_title='Revenda',  yaxis_title='Faturamento')
         st.plotly_chart(fig, use_container_width=True)
 
+        
+# ========================== TERCEIRA ABA - PRODUTO =======================================================================
 with tab3:
     with st.container():
         st.markdown('### Variação Preço Medio Durante o ano')
@@ -123,7 +137,7 @@ with tab3:
         st.plotly_chart(fig, use_container_width=True)
 
     
-
+# ========================== QUARTA ABA - MAPA =======================================================================
 with tab4:
     st.markdown('### Densidade de Vendas por Cidade')
     aux4 = data.loc[data['ano'] == 2023]
