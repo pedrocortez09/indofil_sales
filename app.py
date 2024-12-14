@@ -4,7 +4,7 @@ import plotly.express as px
 from PIL import Image
 
 st.set_page_config(layout='wide')
-st.header('Dashboard Vendas 2023 - Toninho')
+st.header('Dashboard Vendas - Toninho')
 
 # Read Data
 @st.cache_data
@@ -90,7 +90,7 @@ with tab2:
         if produto_filtro:
             df_filtrado = df_filtrado[df_filtrado['Produto Geral'].isin(produto_filtro)]
 
-        st.markdown('Faturamento durante o ano')
+        st.markdown('### Faturamento durante o ano')
         aux1 = df_filtrado.groupby('Mes')['Total'].sum().reset_index()
         aux1['total_formatted'] = aux1['Total'].apply(format_total)
         fig = px.line(aux1, x='Mes', y='total_formatted', text='total_formatted', markers=True)
@@ -99,7 +99,7 @@ with tab2:
         st.plotly_chart(fig, use_container_width=True)
 
     with st.container():
-        st.markdown('Faturamento por produto')
+        st.markdown('### Faturamento por produto')
         aux = df_filtrado.groupby('Produto Geral')['Total'].sum().reset_index().sort_values('Total', ascending=False)
         aux['total_formatted'] = aux['Total'].apply(format_total)
         fig = px.bar(aux, x='Produto Geral', y='total_formatted', text='total_formatted')
@@ -109,7 +109,7 @@ with tab2:
 
 
     with st.container():
-        st.markdown('Faturamento por Revenda')
+        st.markdown('### Faturamento por Revenda')
         aux = df_filtrado.groupby('Revenda').agg({'Quantidade': 'sum', 'Total': 'sum'}).reset_index().sort_values('Total', ascending=False)
         aux['total_formatted'] = aux['Total'].apply(format_total)
         fig = px.bar(aux, x='Revenda', y='total_formatted', text='total_formatted')
@@ -206,7 +206,7 @@ with tab4:
 
 # ========================== QUINTA ABA - CONCLUSÕES =======================================================================
 with tab5:
-    st.markdown('## Conclusões')
+    st.markdown('## Conclusões - Dez 2024')
 
     # 1. Porcentagem de queda no faturamento
     faturamento_2023 = data[data['Ano'] == 2023]['Total'].sum()
