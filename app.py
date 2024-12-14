@@ -163,7 +163,7 @@ with tab4:
     if ano_filtro:
         df_filtrado = df_filtrado[df_filtrado['Ano'].isin(ano_filtro)]
     if cidade_filtro:
-        df_filtrado = df_filtrado[df_filtrado['cidade'].isin(cidade_filtro)]
+        df_filtrado = df_filtrado[df_filtrado['Cidade'].isin(cidade_filtro)]
     if produto_filtro:
         df_filtrado = df_filtrado[df_filtrado['Produto Geral'].isin(produto_filtro)]
 
