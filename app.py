@@ -32,7 +32,7 @@ st.sidebar.image(image, width=120)
 
 st.sidebar.title('Filtros')
 
-ano_filtro = st.sidebar.multiselect('Selecione o Ano', data['Ano'].sort_values().unique(), default=[2024])
+ano_filtro = st.sidebar.multiselect('Selecione o Ano', data['Ano'].sort_values().unique(), default=[2025])
 
 # Opções para o filtro de cidade
 cidade_filtro = st.sidebar.multiselect('Selecione uma Cidade', data['Cidade'].sort_values().unique())
