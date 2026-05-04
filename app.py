@@ -19,7 +19,8 @@ data = get_data('data/vendas.csv')
 def format_total(value):
     return '{:,.2f}'.format(value)
 
-data.columns = ['Revenda', 'Cidade', 'Produto', 'Quantidade', 'Preço', 'Total', 'Ano', 'Mes', 'Produto Geral', 'Latitude', 'Longitude','Total Cidade']
+data.columns = ['Revenda', 'Cidade', 'Produto', 'Quantidade', 'Preço', 'Total', 'Ano', 'Mes', 'Nome Mes', 'Produto Geral', 'Latitude', 'Longitude', 'Total Cidade', 'Safra', 'Mes Safra']
+
 
 
 #====================================
@@ -32,10 +33,8 @@ st.sidebar.image(image, width=120)
 
 st.sidebar.title('Filtros')
 
-ano_filtro = st.sidebar.multiselect('Selecione o Ano', data['Ano'].sort_values().unique(), default=[2025])
-
-# Opções para o filtro de cidade
-cidade_filtro = st.sidebar.multiselect('Selecione uma Cidade', data['Cidade'].sort_values().unique())
+# Opções para o filtro de safra
+safra_filtro = st.sidebar.multiselect('Selecione a Safra',data['Safra'].sort_values().unique(), default=[data['Safra'].max()])
 
 # Opções para o filtro de produto
 produto_filtro = st.sidebar.multiselect('Selecione um Produto', data['Produto Geral'].sort_values().unique())
@@ -45,55 +44,61 @@ produto_filtro = st.sidebar.multiselect('Selecione um Produto', data['Produto Ge
 tab1, tab2, tab3, tab4, tab5 = st.tabs(['Planilha' ,'Faturamento', 'Produto', 'Mapa', 'Conclusões'])
 
 
+# ==================== APLICAÇÃO GLOBAL DOS FILTROS =====================
+df_filtrado = data.copy()
+if safra_filtro:
+    df_filtrado = df_filtrado[df_filtrado['Safra'].isin(safra_filtro)]
+if produto_filtro:
+    df_filtrado = df_filtrado[df_filtrado['Produto Geral'].isin(produto_filtro)]
+
+
 # ========================== PRIMEIRA ABA - PLANILHA =======================================================================
 with tab1:
-    with st.container():
-        st.header('Planilha de Vendas')
-
-        df_filtrado = data.copy()
-        if ano_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Ano'].isin(ano_filtro)]
-        if cidade_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Cidade'].isin(cidade_filtro)]
-        if produto_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Produto Geral'].isin(produto_filtro)]
-
-        aux = df_filtrado.loc[:, ['Revenda', 'Cidade', 'Produto', 'Quantidade', 'Preço', 'Total', 'Ano']]
-        aux = aux.sort_values('Revenda', ascending=True)
-        st.dataframe(aux, width=1200, height=400)
+    
 
     with st.container():
-        col1, col2 = st.columns(2)
+        col1, col2, col3, col4 = st.columns(4)
         with col1:
             valor_venda = df_filtrado['Total'].sum()
             total_vendas_formatado = "{:,.2f}".format(valor_venda).replace(",", "X").replace(".", ",").replace("X", ".")
-            st.markdown(f'### Total Faturado: ')
+            st.markdown(f'### Total Faturado')
             st.markdown(f'## R$ {total_vendas_formatado}') 
 
         with col2:
             quantidade_venda = df_filtrado['Quantidade'].sum()
             quantidade_vendas_formatado = "{:,.2f}".format(quantidade_venda).replace(",", "X").replace(".", ",").replace("X", ".")
-            st.markdown(f'### Quantidade vendida: ')
-            st.markdown(f'## {quantidade_vendas_formatado} kg')              
+            st.markdown(f'### Quantidade vendida')
+            st.markdown(f'## {quantidade_vendas_formatado} kg')     
 
+        with col3:
+            revendas_atendidas = df_filtrado['Revenda'].nunique()
+            st.markdown(f'### Revendas Atendidas')
+            st.markdown(f'## {revendas_atendidas}')
+
+        with col4:
+            cidades_atendidas = df_filtrado['Cidade'].nunique()
+            st.markdown(f'### Cidades Atendidas')
+            st.markdown(f'## {cidades_atendidas}')
+
+
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    with st.container():
+        st.markdown('### Planilha de Vendas')
+        aux = df_filtrado.loc[:, ['Revenda', 'Cidade', 'Produto', 'Quantidade', 'Preço', 'Total', 'Safra']].reset_index(drop=True)
+        aux = aux.sort_values('Revenda', ascending=True)
+        st.dataframe(aux, width=1200, height=400)        
 
 
 # ========================== SEGUNDA ABA - FATURAMENTO =======================================================================
 with tab2:
     with st.container():
 
-        df_filtrado = data.copy()
-        if ano_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Ano'].isin(ano_filtro)]
-        if cidade_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Cidade'].isin(cidade_filtro)]
-        if produto_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Produto Geral'].isin(produto_filtro)]
-
         st.markdown('### Faturamento durante o ano')
-        aux1 = df_filtrado.groupby('Mes')['Total'].sum().reset_index()
+        aux1 = df_filtrado.groupby(['Mes Safra', 'Nome Mes'])['Total'].sum().reset_index()
         aux1['total_formatted'] = aux1['Total'].apply(format_total)
-        fig = px.line(aux1, x='Mes', y='total_formatted', text='total_formatted', markers=True)
+        fig = px.line(aux1, x='Nome Mes', y='total_formatted', text='total_formatted', markers=True)
         fig.update_layout( xaxis_title='Mês',  yaxis_title='Faturamento')
         fig.update_traces(textposition="top left")
         st.plotly_chart(fig, use_container_width=True)
@@ -122,35 +127,36 @@ with tab2:
 with tab3:
     with st.container():
 
-        df_filtrado = data.copy()
-        if ano_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Ano'].isin(ano_filtro)]
-        if cidade_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Cidade'].isin(cidade_filtro)]
-        if produto_filtro:
-            df_filtrado = df_filtrado[df_filtrado['Produto Geral'].isin(produto_filtro)]
-
-
         st.markdown('### Variação Preço Medio Durante o ano')
-        aux3 = df_filtrado[['Produto Geral', 'Preço', 'Mes']].groupby(['Produto Geral', 'Mes']).mean().reset_index().sort_values('Mes')
+        aux3 = df_filtrado[['Produto Geral', 'Preço', 'Mes Safra', 'Nome Mes']].groupby(['Produto Geral', 'Mes Safra', 'Nome Mes'], as_index=False).mean()
         aux3['Preço'] = aux3['Preço'].round(2)
-        fig = px.line(aux3, x='Mes', y='Preço', color='Produto Geral', markers=True, text='Preço' )
+        aux3 = aux3.sort_values('Mes Safra')
+
+        # Define a ordem correta dos meses para o eixo X
+        ordem_meses = aux3.sort_values('Mes Safra')['Nome Mes'].unique().tolist()
+
+        # Cria o gráfico
+        fig = px.line(aux3,x='Nome Mes', y='Preço', color='Produto Geral', markers=True, text='Preço', category_orders={'Nome Mes': ordem_meses})
         fig.update_layout( xaxis_title='Mês',  yaxis_title='Preço Médio')
         fig.update_traces(textposition="top left")
         st.plotly_chart(fig, use_container_width=True)
 
     with st.container():
-        st.markdown('### Quantidade vendida por mês de cada produto')
-        aux1 = df_filtrado[['Produto Geral', 'Quantidade', 'Mes']].groupby(['Produto Geral', 'Mes']).sum().reset_index().sort_values('Mes', ascending=True)
-        fig = px.line( aux1, x='Mes', y='Quantidade', color='Produto Geral', text='Quantidade', markers=True )
+        st.markdown('### Quantidade faturada por mês de cada produto')
+        aux1 = df_filtrado[['Produto Geral', 'Quantidade', 'Mes Safra', 'Nome Mes']].groupby(['Produto Geral', 'Mes Safra', 'Nome Mes' ]).sum().reset_index()
+        # Define a ordem correta dos meses para o eixo X
+        aux1 = aux1.sort_values('Mes Safra')
+        ordem_meses = aux1['Nome Mes'].unique().tolist()
+
+        fig = px.line( aux1, x='Nome Mes', y='Quantidade', color='Produto Geral', text='Quantidade', markers=True, category_orders={'Nome Mes': ordem_meses}) 
         fig.update_layout( xaxis_title='Mês',  yaxis_title='Quantidade Total')
         fig.update_traces(textposition="top left")
         st.plotly_chart(fig, use_container_width=True)
 
     with st.container():
         st.markdown('### Produtos mais vendidos')
-        aux3 = df_filtrado[['Produto', 'Quantidade']].groupby('Produto').sum().reset_index().sort_values('Quantidade', ascending=False)
-        fig = px.bar(aux3, x='Produto', y='Quantidade', text='Quantidade')
+        aux3 = df_filtrado[['Produto Geral', 'Quantidade']].groupby('Produto Geral').sum().reset_index().sort_values('Quantidade', ascending=False)
+        fig = px.bar(aux3, x='Produto Geral', y='Quantidade', text='Quantidade')
         fig.update_layout( xaxis_title='Produto',  yaxis_title='Quantidade Total')
         fig.update_traces(textposition='outside',textfont_size=14)
         st.plotly_chart(fig, use_container_width=True)
@@ -159,13 +165,6 @@ with tab3:
 # ========================== QUARTA ABA - MAPA =======================================================================
 with tab4:
 
-    df_filtrado = data.copy()
-    if ano_filtro:
-        df_filtrado = df_filtrado[df_filtrado['Ano'].isin(ano_filtro)]
-    if cidade_filtro:
-        df_filtrado = df_filtrado[df_filtrado['Cidade'].isin(cidade_filtro)]
-    if produto_filtro:
-        df_filtrado = df_filtrado[df_filtrado['Produto Geral'].isin(produto_filtro)]
 
     # Exibição do título
     st.markdown('### Densidade de Vendas por Cidade')

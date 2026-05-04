@@ -1,271 +1,307 @@
-,revenda,cidade,produto,quantidade,preço,total,ano,mes,produto_geral,latitude,longitude,total_por_cidade
-0,Agro Neto,Pilar do Sul,Xopotó 800 WP 1x10kg,640,21.5,13760.0,2022,6,Xopotó,-23.8121684,-47.7201865,545157.5
-1,Agro Neto,Pilar do Sul,Xopotó 800 WP 1x10kg,360,22.5,8100.0,2022,6,Xopotó,-23.8121684,-47.7201865,545157.5
-2,Agro Neto,Pilar do Sul,Moximate WP 10x1kg,360,41.0,14760.0,2022,6,Moximate,-23.8121684,-47.7201865,545157.5
-3,Agro Neto,Pilar do Sul,Xopotó 800 WP 1x10kg,2560,21.5,55040.0,2022,6,Xopotó,-23.8121684,-47.7201865,545157.5
-4,Agrofert,Lambari,Xopotó 800 WP 1x10kg,1080,23.0,24840.0,2022,7,Xopotó,-21.9754009,-45.3505415,169084.8
-5,Agrofert,Lambari,Moximate WP 10x1kg,2160,41.5,89640.0,2022,7,Moximate,-21.9754009,-45.3505415,169084.8
-6,D’Agro,Itapetininga,Moximate WP 1x10kg,360,42.0,15120.0,2022,7,Moximate,-23.588607,-48.048326,731580.0
-7,D’Agro,Itapetininga,Xopotó 800 WP 1x10kg,3200,19.2,61440.0,2022,7,Xopotó,-23.588607,-48.048326,731580.0
-8,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,1280,38.5,49280.0,2022,7,Moximate,-22.1532505,-46.0404698,2882487.9
-9,Agricola Pinhotti,Congonhal,Moximate WP 1x20kg,1280,35.0,44800.0,2022,7,Moximate,-22.1532505,-46.0404698,2882487.9
-10,Agricola Pinhotti,Congonhal,Xopotó 800 WP 1x10kg,1280,19.2,24576.0,2022,7,Xopotó,-22.1532505,-46.0404698,2882487.9
-11,Agricola Pinhotti,Congonhal,Moximate WP 10x1kg,3240,36.0,116640.0,2022,8,Moximate,-22.1532505,-46.0404698,2882487.9
-12,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,5120,32.5,166400.0,2022,8,Moximate,-22.1532505,-46.0404698,2882487.9
-13,Agro Neto,Pilar do Sul,Moximate WP 10x1kg,360,41.0,14760.0,2022,8,Moximate,-23.8121684,-47.7201865,545157.5
-14,Agro Neto,Pilar do Sul,Moximate WP 10x1kg,360,41.0,14760.0,2022,8,Moximate,-23.8121684,-47.7201865,545157.5
-15,Agrogarcia Insumos,Três Pontas,Manfil 800WP 1x25kg,3500,24.5,85750.0,2022,10,Manfil,-21.3686224,-45.5122937,85750.0
-16,Casa do Adubo,Pilar do Sul,Manfil 800WP 1x25kg,1400,23.7,33180.0,2022,11,Manfil,-23.8121684,-47.7201865,545157.5
-17,Casa do Café,Franca,Indozeb 750 WG 1x25kg,2100,26.8,56280.0,2022,11,Indozeb,46.603354,1.8883335,56280.0
-18,Casa do Adubo,Pouso Alegre,Manfil 800WP 1x25kg,1400,21.0,29400.0,2022,12,Manfil,-22.2343858,-45.9327241,702745.4
-19,Casa do Adubo,Pouso Alegre,Moximate WP 1x10kg,720,36.0,25920.0,2022,12,Moximate,-22.2343858,-45.9327241,702745.4
-20,D’Agro,Itapetininga,Moximate WP 1x10kg,3200,33.5,107200.0,2022,12,Moximate,-23.588607,-48.048326,731580.0
-21,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x10kg,640,36.0,23040.0,2022,12,Moximate,-22.441421,-46.3475825,672463.2
-22,Cooperbatata,Sacramento,Moximate WP 1x10kg,1280,34.0,43520.0,2023,1,Moximate,38.5810606,-121.493895,43520.0
-23,Nova Geração,Cambui,Moximate WP 10x1kg,1080,35.0,37800.0,2023,1,Moximate,-22.6122501,-46.0572137,166464.0
-24,Fitovet,Paraguaçu,Manfil 800WP 1x25kg,1400,22.62,31668.0,2023,1,Manfil,-21.547222,-45.7375,141988.0
-25,Casa do Adubo,Pilar do Sul,Moximate WP 10x1kg,360,33.5,12060.0,2023,1,Moximate,-23.8121684,-47.7201865,545157.5
-26,Casa do Adubo,Pilar do Sul,Moximate WP 1x10kg,640,33.5,21440.0,2023,1,Moximate,-23.8121684,-47.7201865,545157.5
-27,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,5120,32.5,166400.0,2023,1,Moximate,-22.1532505,-46.0404698,2882487.9
-28,D’Agro,Itapetininga,Manfil 800WP 1x25kg,2800,20.0,56000.0,2023,1,Manfil,-23.588607,-48.048326,731580.0
-29,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,1920,32.5,62400.0,2023,1,Moximate,-22.1532505,-46.0404698,2882487.9
-30,Agricola Pinhotti,Congonhal,Moximate WP 10x1kg,1800,32.5,58500.0,2023,1,Moximate,-22.1532505,-46.0404698,2882487.9
-31,Agroserv,Itamogi,Indozeb 750 WG 1x25kg,1400,24.0,33600.0,2023,1,Indozeb,-21.0793213,-47.048612,99774.2
-32,R Agro,Caconde ,Moximate WP 1x10kg,2560,32.0,81920.0,2023,2,Moximate,-21.5554136,-46.6301073,835000.0
-33,R Agro,Caconde ,Moximate WP 1x10kg,1280,32.0,40960.0,2023,2,Moximate,-21.5554136,-46.6301073,835000.0
-34,R Agro,Caconde ,Moximate WP 10x1kg,720,32.5,23400.0,2023,2,Moximate,-21.5554136,-46.6301073,835000.0
-35,R Agro,Caconde ,Indozeb 750 WG 1x25kg,2100,21.0,44100.0,2023,2,Indozeb,-21.5554136,-46.6301073,835000.0
-36,D’Agro,Itapetininga,Manfil 800WP 1x25kg,3500,20.0,70000.0,2023,2,Manfil,-23.588607,-48.048326,731580.0
-37,Agro Neto,Pilar do Sul,Manfil 800WP 1x25kg,700,20.0,14000.0,2023,2,Manfil,-23.8121684,-47.7201865,545157.5
-38,Agro Neto,Pilar do Sul,Moximate WP 1x10kg,640,34.0,21760.0,2023,2,Moximate,-23.8121684,-47.7201865,545157.5
-39,Casa do Adubo,Capao Bonito,Manfil 800WP 1x25kg,6300,19.0,119700.0,2023,2,Manfil,-24.0048759,-48.3489848,248588.0
-40,Casa do Adubo,Pilar do Sul,Indozeb 750 WG 1x25kg,1975,22.5,44437.5,2023,2,Indozeb,-23.8121684,-47.7201865,545157.5
-41,Casa do Adubo,Mogi Mirim,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,2,Manfil,-22.433123,-46.958246,114740.0
-42,Casa do Adubo,Vargem Grande do Sul,Manfil 800WP 1x25kg,3500,19.0,66500.0,2023,2,Manfil,-21.8310636,-46.893303,192260.0
-43,Casa do Adubo,Pouso Alegre,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,2,Manfil,-22.2343858,-45.9327241,702745.4
-44,Minas Sul,Três Corações,Manfil 800WP 1x25kg,10500,19.0,199500.0,2023,2,Manfil,-21.695625,-45.2543675,824131.0
-45,R Agro,Caconde ,Manfil 800WP 1x25kg,3500,19.0,66500.0,2023,2,Manfil,-21.5554136,-46.6301073,835000.0
-46,Agrotecnica,Matão,Manfil 800WP 1x25kg,3500,19.0,66500.0,2023,2,Manfil,-21.6033611,-48.3660603,596660.4
-47,R Agro,Caconde ,Manfil 800WP 1x25kg,5600,18.0,100800.0,2023,3,Manfil,-21.5554136,-46.6301073,835000.0
-48,Ouro Safra,Itapetininga,Manfil 800WP 1x25kg,4200,19.0,79800.0,2023,3,Manfil,-23.588607,-48.048326,731580.0
-49,Ouro Safra,Itapetininga,Manfil 800WP 1x25kg,3500,19.0,66500.0,2023,3,Manfil,-23.588607,-48.048326,731580.0
-50,R Agro,Caconde ,Manfil 800WP 1x25kg,4900,18.0,88200.0,2023,3,Manfil,-21.5554136,-46.6301073,835000.0
-51,R Agro,Caconde ,Moximate WP 1x10kg,10240,32.0,327680.0,2023,3,Moximate,-21.5554136,-46.6301073,835000.0
-52,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,4480,33.0,147840.0,2023,3,Moximate,-22.1532505,-46.0404698,2882487.9
-53,Ouro Safra,Itapetininga,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,3,Manfil,-23.588607,-48.048326,731580.0
-54,Ouro Safra,Santa Cruz do Rio Pardo,Manfil 800WP 1x25kg,2100,18.0,37800.0,2023,4,Manfil,-22.9060715,-49.6277378,37800.0
-55,Ouro Safra,Pilar do Sul,Manfil 800WP 1x25kg,1400,18.0,25200.0,2023,4,Manfil,-23.8121684,-47.7201865,545157.5
-56,Agricola Pinhotti,Congonhal,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,4,Manfil,-22.1532505,-46.0404698,2882487.9
-57,Agro Neto,Pilar do Sul,Manfil 800WP 1x25kg,1400,19.6,27440.000000000004,2023,4,Manfil,-23.8121684,-47.7201865,545157.5
-58,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,5120,33.0,168960.0,2023,4,Moximate,-22.1532505,-46.0404698,2882487.9
-59,Agricola Pinhotti,Congonhal,Manfil 800WP 1x25kg,1400,19.0,26600.0,2023,4,Manfil,-22.1532505,-46.0404698,2882487.9
-60,Armazem Agricola,Campinas ,Manfil 800WP 1x25kg,1400,19.0,26600.0,2023,5,Manfil,-22.9056391,-47.059564,26600.0
-61,Qualicitrus,Casa Branca,Moximate WP 1x10kg,1920,35.5,68160.0,2023,5,Moximate,38.8976387,-77.0365528,151616.0
-62,Qualicitrus,Mogi Mirim,Moximate WP 1x10kg,1280,35.5,45440.0,2023,5,Moximate,-22.433123,-46.958246,114740.0
-63,Nova Geração,Cambui,Moximate WP 1x10kg,1280,35.5,45440.0,2023,5,Moximate,-22.6122501,-46.0572137,166464.0
-64,Qualicitrus,Pouso Alegre,Moximate WP 1x10kg,1920,35.5,68160.0,2023,5,Moximate,-22.2343858,-45.9327241,702745.4
-65,Qualicitrus,Sumaré,Moximate WP 1x10kg,1280,35.5,45440.0,2023,5,Moximate,-22.8217964,-47.267105,45440.0
-66,Agricola Pinhotti,Congonhal,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,5,Manfil,-22.1532505,-46.0404698,2882487.9
-67,Agrotata,Ipuiúna,Moximate WP 1x20kg,1280,35.5,45440.0,2023,5,Moximate,-22.0993203,-46.1896557,1273285.6
-68,Agricola Pinhotti,Congonhal,Moximate WP 1x20kg,3840,33.0,126720.0,2023,5,Moximate,-22.1532505,-46.0404698,2882487.9
-69,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,640,33.0,21120.0,2023,5,Moximate,-22.1532505,-46.0404698,2882487.9
-70,Agrotecnica,Matão,Manfil 800WP 1x25kg,1400,20.9,29259.999999999996,2023,7,Manfil,-21.6033611,-48.3660603,596660.4
-71,Agrotecnica,Matão,Manfil 800WP 1x25kg,1400,20.9,29259.999999999996,2023,7,Manfil,-21.6033611,-48.3660603,596660.4
-72,Cooperbatata,Casa Branca,Moximate WP 1x20kg,2560,32.6,83456.0,2023,7,Moximate,38.8976387,-77.0365528,151616.0
-73,Agroterra,Munhoz,Moximate WP 1x10kg,1280,36.4,46592.0,2023,7,Moximate,-22.613056,-46.360556,1120510.8
-74,Agroterra,Munhoz,Moximate WP 10x1kg,720,38.8,27935.999999999996,2023,7,Moximate,-22.613056,-46.360556,1120510.8
-75,Comercial Martins Bento,Bueno Brandao,Moximate WP 10x1kg,1440,39.8,57311.99999999999,2023,8,Moximate,-22.441421,-46.3475825,672463.2
-76,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x10kg,640,36.4,23296.0,2023,8,Moximate,-22.441421,-46.3475825,672463.2
-77,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x5kg,600,38.1,22860.0,2023,8,Moximate,-22.441421,-46.3475825,672463.2
-78,R Agro,Caconde ,Moximate WP 1x10kg,1920,32.0,61440.0,2023,7,Moximate,-21.5554136,-46.6301073,835000.0
-79,Agricola Pinhotti,Congonhal,Moximate WP 10x1kg,5040,36.0,181440.0,2023,8,Moximate,-22.1532505,-46.0404698,2882487.9
-80,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,10240,33.5,343040.0,2023,8,Moximate,-22.1532505,-46.0404698,2882487.9
-81,Agricola Pinhotti,Congonhal,Moximate WP 1x20kg,15360,32.5,499200.0,2023,8,Moximate,-22.1532505,-46.0404698,2882487.9
-82,Nova Geração,Cambui,Moximate WP 10x1kg,1080,37.0,39960.0,2024,8,Moximate,-22.6122501,-46.0572137,166464.0
-83,Nova Geração,Cambui,Moximate WP 1x10kg,1280,33.8,43264.0,2024,8,Moximate,-22.6122501,-46.0572137,166464.0
-84,Agricola Pinhotti,Congonhal,Manfil 800WP 1x25kg,6300,20.9,131670.0,2023,8,Manfil,-22.1532505,-46.0404698,2882487.9
-85,Fitovet,Paraguaçu,Manfil 800WP 1x25kg,2100,20.9,43890.0,2023,8,Manfil,-21.547222,-45.7375,141988.0
-86,Casa do Adubo,Pouso Alegre,Moximate WP 1x10kg,640,33.2,21248.0,2023,8,Moximate,-22.2343858,-45.9327241,702745.4
-87,Casa do Adubo,Pouso Alegre,Moximate WP 10x1kg,1080,36.0,38880.0,2023,8,Moximate,-22.2343858,-45.9327241,702745.4
-88,Agrotecnica,Matão,Manfil 800WP 1x25kg,1400,20.9,29259.999999999996,2023,8,Manfil,-21.6033611,-48.3660603,596660.4
-89,Parceria Agrícola,Camanducaia,Moximate WP 1x10kg,2560,31.5,80640.0,2023,8,Moximate,-22.755278,-46.144444,640314.3
-90,Agrotecnica,Matão,Manfil 800WP 1x25kg,1400,22.7,31780.0,2023,10,Manfil,-21.6033611,-48.3660603,596660.4
-91,Agroterra,Munhoz,Moximate WP 1x5kg,1710,36.5,62415.0,2023,10,Moximate,-22.613056,-46.360556,1120510.8
-92,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x5kg,1710,37.0,63270.0,2023,10,Moximate,-22.441421,-46.3475825,672463.2
-93,Agroserv,Itamogi,Indozeb 750 WG 1x25kg,1400,24.7,34580.0,2023,10,Indozeb,-21.0793213,-47.048612,99774.2
-94,Agroterra,Munhoz,Moximate WP 1x10kg,1280,36.5,46720.0,2023,12,Moximate,-22.613056,-46.360556,1120510.8
-95,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x10kg,640,35.5,22720.0,2024,1,Moximate,-22.441421,-46.3475825,672463.2
-96,Comercial Martins Bento,Bueno Brandao,Moximate WP 10x1kg,360,38.7,13932.000000000002,2024,1,Moximate,-22.441421,-46.3475825,672463.2
-97,Armazem Agricola,Vinhedo,Manfil 800WP 1x25kg,2100,19.05,40005.0,2024,1,Manfil,-23.0298535,-46.9749847,102997.8
-98,Casa do Adubo,Pouso Alegre,Moximate WP 1x10kg,720,36.0,25920.0,2024,1,Moximate,-22.2343858,-45.9327241,702745.4
-99,Casa do Adubo,Pouso Alegre,Moximate WP 10x1kg,640,34.5,22080.0,2024,1,Moximate,-22.2343858,-45.9327241,702745.4
-100,D’Agro,Itapetininga,Manfil 800WP 1x25kg,12600,18.7,235620.0,2024,1,Manfil,-23.588607,-48.048326,731580.0
-101,Agrotecnica,Matão,Manfil 800WP 1x25kg,2800,20.44,57232.0,2024,2,Manfil,-21.6033611,-48.3660603,596660.4
-102,Agrotata,Ipuiúna,Manfil 800WP 1x25kg,1400,19.25,26950.0,2024,2,Manfil,-22.0993203,-46.1896557,1273285.6
-103,Agrotata,Ipuiúna,Moximate WP 1x10kg,1280,33.1,42368.0,2024,2,Moximate,-22.0993203,-46.1896557,1273285.6
-104,Casa do Adubo,Pouso Alegre,Moximate WP 1x10kg,1280,34.5,44160.0,2024,2,Moximate,-22.2343858,-45.9327241,702745.4
-105,Casa do Adubo,Pouso Alegre,Moximate WP 10x1kg,720,36.0,25920.0,2024,2,Moximate,-22.2343858,-45.9327241,702745.4
-106,Minas Sul,Três Corações,Manfil 800WP 1x25kg,2100,20.95,43995.0,2024,3,Manfil,-21.695625,-45.2543675,824131.0
-107,Casa do Adubo,Vargem Grande do Sul,Moximate WP 10x1kg,720,36.0,25920.0,2024,2,Moximate,-21.8310636,-46.893303,192260.0
-108,Agroterra,Munhoz,Moximate WP 10x1kg,720,38.9,28008.0,2024,2,Moximate,-22.613056,-46.360556,1120510.8
-109,Agrotata,Ipuiúna,Moximate WP 1x5kg,1200,34.9,41880.0,2024,3,Moximate,-22.0993203,-46.1896557,1273285.6
-110,Agroterra,Munhoz,Manfil 800WP 1x25kg,1400,19.6,27440.000000000004,2024,3,Manfil,-22.613056,-46.360556,1120510.8
-111,Agrotata,Ipuiúna,Moximate WP 1x5kg,3000,34.9,104700.0,2024,3,Moximate,-22.0993203,-46.1896557,1273285.6
-112,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x5kg,1200,38.5,46200.0,2024,3,Moximate,-22.441421,-46.3475825,672463.2
-113,Agrotata,Ipuiúna,Manfil 800WP 1x25kg,2100,19.6,41160.0,2024,3,Manfil,-22.0993203,-46.1896557,1273285.6
-114,Comercial Martins Bento,Bueno Brandao,Moximate WP 10x1kg,720,39.25,28260.0,2024,3,Moximate,-22.441421,-46.3475825,672463.2
-115,Comercial Martins Bento,Bueno Brandao,Moximate WP 10x1kg,360,39.25,14130.0,2024,3,Moximate,-22.441421,-46.3475825,672463.2
-116,Equilibrio Agricola,Mogi Mirim,Manfil 800WP 1x25kg,1400,21.0,29400.0,2024,4,Manfil,-22.433123,-46.958246,114740.0
-117,Parceria Agrícola,Camanducaia,Manfil 800WP 10x1kg,720,24.7,17784.0,2024,3,Manfil,-22.755278,-46.144444,640314.3
-118,Parceria Agrícola,Camanducaia,Moximate WP 1x10kg,640,36.0,23040.0,2024,4,Moximate,-22.755278,-46.144444,640314.3
-119,Agro Neto,Pilar do Sul,Manfil 800WP 10x1kg,1800,24.7,44460.0,2024,3,Manfil,-23.8121684,-47.7201865,545157.5
-120,Agrotecnica,Matão,Manfil 800WP 1x25kg,4900,21.0,102900.0,2024,3,Manfil,-21.6033611,-48.3660603,596660.4
-121,Agroterra,Munhoz,Manfil 800WP 10x1kg,720,23.0,16560.0,2024,3,Manfil,-22.613056,-46.360556,1120510.8
-122,Minas Sul,Três Corações,Manfil 800WP 1x25kg,4900,21.0,102900.0,2024,3,Manfil,-21.695625,-45.2543675,824131.0
-123,Fitovet,Paraguaçu,Manfil 800WP 1x25kg,1400,21.0,29400.0,2024,4,Manfil,-21.547222,-45.7375,141988.0
-124,Casa do Adubo,Pouso Alegre,Manfil 800WP 10x1kg,720,23.0,16560.0,2024,3,Manfil,-22.2343858,-45.9327241,702745.4
-125,Casa do Adubo,Nova Friburgo,Manfil 800WP 10x1kg,1080,23.0,24840.0,2024,3,Manfil,-22.3061661,-42.4934183,126306.0
-126,Casal Comércio,Indaiatuba,Manfil 800WP 1x25kg,1400,19.6,27440.000000000004,2024,4,Manfil,-23.0908356,-47.2180677,134648.0
-127,Casal Comércio,Indaiatuba,Manfil 800WP 10x1kg,1080,23.0,24840.0,2024,4,Manfil,-23.0908356,-47.2180677,134648.0
-128,Casa do Adubo,Serra,Manfil 800WP 10x1kg,1800,23.0,41400.0,2024,3,Manfil,39.6851966,-0.4281287,138438.0
-129,Casa do Adubo,Pouso Alegre,Manfil 800WP 1x25kg,2100,19.6,41160.0,2024,4,Manfil,-22.2343858,-45.9327241,702745.4
-130,Casa do Adubo,Contagem,Manfil 800WP 10x1kg,720,23.0,16560.0,2024,4,Manfil,-19.9132749,-44.0840953,16560.0
-131,Minas Sul,Três Corações,Manfil 800WP 1x25kg,4200,20.32,85344.0,2024,4,Manfil,-21.695625,-45.2543675,824131.0
-132,Agrotata,Ipuiúna,Manfil 800WP 1x25kg,3500,18.9,66150.0,2024,5,Manfil,-22.0993203,-46.1896557,1273285.6
-133,Agrotata,Ipuiúna,Moximate WP 1x10kg,1920,33.7,64704.00000000001,2024,5,Moximate,-22.0993203,-46.1896557,1273285.6
-134,Casa do Adubo,Serra,Manfil 800WP 1x25kg,3500,18.9,66150.0,2024,5,Manfil,39.6851966,-0.4281287,138438.0
-135,Casa do Adubo,Nova Friburgo,Manfil 800WP 1x25kg,2100,18.9,39690.0,2024,5,Manfil,-22.3061661,-42.4934183,126306.0
-136,Agrofert,Lambari,Manfil 800WP 10x1kg,720,25.21,18151.2,2024,5,Manfil,-21.9754009,-45.3505415,169084.8
-137,Casa do Adubo,Pouso Alegre,Manfil 800WP 1x25kg,1400,18.9,26459.999999999996,2024,5,Manfil,-22.2343858,-45.9327241,702745.4
-138,Bonagro,Senador Amaral,Manfil 800WP 1x25kg,700,18.62,13034.0,2024,5,Manfil,-22.5875,-46.176667,578839.1
-139,Bonagro,Senador Amaral,Moximate WP 1x10kg,2560,34.72,88883.2,2024,5,Moximate,-22.5875,-46.176667,578839.1
-140,Naroca,Maria da Fe,Moximate WP 1x10kg,640,36.23,23187.199999999997,2024,5,Moximate,-22.3081652,-45.3752771,50067.2
-141,Agrotata,Ipuiúna,Manfil 800WP 1x25kg,1400,19.05,26670.0,2024,6,Manfil,-22.0993203,-46.1896557,1273285.6
-142,Parceria Agrícola,Camanducaia,Moximate WP 10x1kg,360,39.72,14299.199999999999,2024,6,Moximate,-22.755278,-46.144444,640314.3
-143,Parceria Agrícola,Camanducaia,Moximate WP 1x10kg,630,36.23,22824.899999999998,2024,6,Moximate,-22.755278,-46.144444,640314.3
-144,Parceria Agrícola,Camanducaia,Moximate WP 10x1kg,720,39.72,28598.399999999998,2024,6,Moximate,-22.755278,-46.144444,640314.3
-145,Parceria Agrícola,Camanducaia,Moximate WP 1x10kg,640,36.23,23187.199999999997,2024,6,Moximate,-22.755278,-46.144444,640314.3
-146,Parceria Agrícola,Camanducaia,Moximate WP 10x1kg,360,39.72,14299.199999999999,2024,6,Moximate,-22.755278,-46.144444,640314.3
-147,Parceria Agrícola,Camanducaia,Moximate WP 1x10kg,640,36.23,23187.199999999997,2024,6,Moximate,-22.755278,-46.144444,640314.3
-148,Parceria Agrícola,Camanducaia,Moximate WP 10x1kg,360,39.72,14299.199999999999,2024,6,Moximate,-22.755278,-46.144444,640314.3
-149,Parceria Agrícola,Camanducaia,Moximate WP 1x10kg,610,36.23,22100.3,2024,6,Moximate,-22.755278,-46.144444,640314.3
-150,Parceria Agrícola,Camanducaia,Manfil 800WP 1x25kg,1400,20.76,29064.000000000004,2024,6,Manfil,-22.755278,-46.144444,640314.3
-151,Parceria Agrícola,Camanducaia,Indozeb 750 WG 1x25kg,700,24.74,17318.0,2024,6,Indozeb,-22.755278,-46.144444,640314.3
-152,Agroterra,Munhoz,Moximate WP 10x1kg,360,36.95,13302.000000000002,2024,6,Moximate,-22.613056,-46.360556,1120510.8
-153,Agroterra,Munhoz,Moximate WP 1x10kg,640,33.7,21568.0,2024,6,Moximate,-22.613056,-46.360556,1120510.8
-154,Agroterra,Munhoz,Manfil 800WP 1x25kg,700,19.05,13335.0,2024,6,Manfil,-22.613056,-46.360556,1120510.8
-155,Agroterra,Munhoz,Moximate WP 1x10kg,640,33.7,21568.0,2024,6,Moximate,-22.613056,-46.360556,1120510.8
-156,Agrotata,Ipuiúna,Moximate WP 1x10kg,3200,33.7,107840.00000000001,2024,6,Moximate,-22.0993203,-46.1896557,1273285.6
-157,Casa do Adubo,Pouso Alegre,Moximate WP 1x10kg,640,33.7,21568.0,2024,6,Moximate,-22.2343858,-45.9327241,702745.4
-158,Agroterra,Munhoz,Moximate WP 1x10kg,640,33.7,21568.0,2024,6,Moximate,-22.613056,-46.360556,1120510.8
-159,Agroterra,Munhoz,Moximate WP 10x1kg,360,36.95,13302.000000000002,2024,6,Moximate,-22.613056,-46.360556,1120510.8
-160,Bonagro,Senador Amaral,Moximate WP 1x10kg,1280,34.72,44441.6,2024,7,Moximate,-22.5875,-46.176667,578839.1
-161,Bonagro,Senador Amaral,Moximate WP 1x10kg,640,34.72,22220.8,2024,7,Moximate,-22.5875,-46.176667,578839.1
-162,Casa do Adubo,Pouso Alegre,Moximate WP 1x10kg,640,36.5,23360.0,2024,7,Moximate,-22.2343858,-45.9327241,702745.4
-163,Bonagro,Senador Amaral,Moximate WP 1x10kg,2560,38.63,98892.8,2024,7,Moximate,-22.5875,-46.176667,578839.1
-164,Agroterra,Munhoz,Moximate WP 1x10kg,1280,37.5,48000.0,2024,7,Moximate,-22.613056,-46.360556,1120510.8
-165,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x5kg,1200,42.43,50916.0,2024,8,Moximate,-22.441421,-46.3475825,672463.2
-166,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x10kg,640,40.31,25798.4,2024,8,Moximate,-22.441421,-46.3475825,672463.2
-167,Comercial Martins Bento,Bueno Brandao,Moximate WP 10x1kg,720,44.4,31968.0,2024,8,Moximate,-22.441421,-46.3475825,672463.2
-168,Casa do Adubo,Vargem Grande do Sul,Moximate WP 1x10kg,2560,39.0,99840.0,2024,8,Moximate,-21.8310636,-46.893303,192260.0
-169,Agroterra,Munhoz,Moximate WP 1x10kg,1280,39.0,49920.0,2024,8,Moximate,-22.613056,-46.360556,1120510.8
-170,Agrotata,Ipuiúna,Moximate WP 1x10kg,1280,39.0,49920.0,2024,8,Moximate,-22.0993203,-46.1896557,1273285.6
-171,Produtiva Agropecuaria,Socorro,Moximate WP 1x10kg,1920,42.0,80640.0,2024,9,Moximate,34.0572858,-106.8930799,80640.0
-172,Naroca,Maria da Fe,Moximate WP 1x10kg,640,42.0,26880.0,2024,9,Moximate,-22.3081652,-45.3752771,50067.2
-173,Agroterra,Munhoz,Moximate WP 1x10kg,2520,39.0,98280.0,2024,10,Moximate,-22.613056,-46.360556,1120510.8
-174,Comercial Martins Bento,Bueno Brandao,Moximate WP 10x1kg,720,44.4,31968.0,2024,10,Moximate,-22.441421,-46.3475825,672463.2
-175,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x5kg,600,42.73,25637.999999999996,2024,10,Moximate,-22.441421,-46.3475825,672463.2
-176,Comercial Martins Bento,Bueno Brandao,Manfil 800WP 10x1kg,360,28.5,10260.0,2024,10,Manfil,-22.441421,-46.3475825,672463.2
-177,Bonagro,Senador Amaral,Moximate WP 1x5kg,600,40.95,24570.0,2024,10,Moximate,-22.5875,-46.176667,578839.1
-178,Agrofert,Lambari,Manfil 800WP 10x1kg,720,29.36,21139.2,2024,10,Manfil,-21.9754009,-45.3505415,169084.8
-179,Agrofert,Lambari,Moximate WP 10x1kg,360,42.54,15314.4,2024,10,Moximate,-21.9754009,-45.3505415,169084.8
-180,Parceria Agrícola,Camanducaia,Moximate WP 1x5kg,600,42.73,25637.999999999996,2024,10,Moximate,-22.755278,-46.144444,640314.3
-181,Parceria Agrícola,Camanducaia,Manfil 800WP 10x1kg,720,30.64,22060.8,2024,10,Manfil,-22.755278,-46.144444,640314.3
-182,Agroterra,Munhoz,Manfil 800WP 10x1kg,360,44.4,15984.0,2024,10,Manfil,-22.613056,-46.360556,1120510.8
-183,Nogueira e Oliveira,Poços de Caldas,Manfil 800WP 10x1kg,360,44.4,15984.0,2024,10,Manfil,-21.7900318,-46.5647928,183097.2
-184,Casa do Adubo,Pouso Alegre,Moximate WP 1x10kg,1890,37.5,70875.0,2024,10,Moximate,-22.2343858,-45.9327241,702745.4
-185,Casa do Adubo,Pouso Alegre,Manfil 800WP 10x1kg,1440,28.5,41040.0,2024,11,Manfil,-22.2343858,-45.9327241,702745.4
-186,Comercial Martins Bento,Bueno Brandao,Moximate WP 1x10kg,1260,42.25,53235.0,2024,12,Moximate,-22.441421,-46.3475825,672463.2
-187,Agroterra,Munhoz,Moximate WP 1x10kg,630,42.25,26617.5,2025,1,Moximate,-22.613056,-46.360556,1120510.8
-188,Agroterra,Munhoz,Moximate WP 10x1kg,360,44.72,16099.199999999999,2025,1,Moximate,-22.613056,-46.360556,1120510.8
-189,Comercial Martins Bento,Bueno Brandao,Moximate WP 10x1kg,1080,44.72,48297.6,2025,1,Moximate,-22.441421,-46.3475825,672463.2
-190,Agrotata,Ipuiúna,Moximate WP 1x10kg,3150,39.3,123794.99999999999,2025,1,Moximate,-22.0993203,-46.1896557,1273285.6
-191,Agrotata,Ipuiúna,Manfil 800WP 10x1kg,720,30.9,22248.0,2025,1,Manfil,-22.0993203,-46.1896557,1273285.6
-192,Bonagro,Senador Amaral,Moximate WP 1x10kg,630,41.08,25880.399999999998,2025,1,Moximate,-22.5875,-46.176667,578839.1
-193,Agroterra,Munhoz,Moximate WP 1x10kg,630,42.25,26617.5,2025,1,Moximate,-22.613056,-46.360556,1120510.8
-194,Agroterra,Munhoz,Manfil 800WP 10x1kg,360,33.22,11959.199999999999,2025,1,Manfil,-22.613056,-46.360556,1120510.8
-195,Minas Sul,Pouso Alegre,Manfil 800WP 10x1kg,720,33.22,23918.399999999998,2025,2,Manfil,-22.2343858,-45.9327241,702745.4
-196,Agrotata,Ipuiúna,Manfil 800WP 10x1kg,720,30.9,22248.0,2025,2,Manfil,-22.0993203,-46.1896557,1273285.6
-197,Bonagro,Senador Amaral,Moximate WP 1x10kg,630,41.08,25880.399999999998,2025,2,Moximate,-22.5875,-46.176667,578839.1
-198,Agroterra,Munhoz,Manfil 800WP 1x25kg,1400,26.45,37030.0,2025,2,Manfil,-22.613056,-46.360556,1120510.8
-199,Agrotata,Ipuiúna,Manfil 800WP 1x25kg,4900,24.6,120540.0,2025,2,Manfil,-22.0993203,-46.1896557,1273285.6
-200,Nogueira e Oliveira,Poços de Caldas,Manfil 800WP 1x25kg,1400,26.45,37030.0,2025,2,Manfil,-21.7900318,-46.5647928,183097.2
-201,Parceria Agrícola,Camanducaia,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,2,Manfil,-22.755278,-46.144444,640314.3
-202,Parceria Agrícola,Camanducaia,Moximate WP 1x10kg,630,42.25,26617.5,2025,2,Moximate,-22.755278,-46.144444,640314.3
-203,Agricola Pinhotti,Congonhal,Manfil 800WP 1x25kg,3500,26.45,92575.0,2025,2,Manfil,-22.1532505,-46.0404698,2882487.9
-204,Agroserv,Itamogi,Manfil 800WP 10x1kg,360,33.22,11959.199999999999,2025,2,Manfil,-21.0793213,-47.048612,99774.2
-205,Agroserv,Itamogi,Indozeb 750 WG 1x25kg,700,28.05,19635.0,2025,2,Indozeb,-21.0793213,-47.048612,99774.2
-206,Fitovet,Paraguaçu,Manfil 800WP 1x25kg,1400,26.45,37030.0,2025,2,Manfil,-21.547222,-45.7375,141988.0
-207,Nogueira e Oliveira,Poços de Caldas,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,2,Manfil,-21.7900318,-46.5647928,183097.2
-208,Casa do Adubo,Pouso Alegre,Manfil 800WP 1x25kg,1400,24.6,34440.0,2025,2,Manfil,-22.2343858,-45.9327241,702745.4
-209,Nogueira e Oliveira,Poços de Caldas,Manfil 800WP 1x25kg,1400,26.45,37030.0,2025,2,Manfil,-21.7900318,-46.5647928,183097.2
-210,Agroterra,Munhoz,Moximate WP 1x10kg,1260,42.25,53235.0,2025,3,Moximate,-22.613056,-46.360556,1120510.8
-211,Parceria Agrícola,Camanducaia,Moximate WP 10x1kg,720,44.72,32198.399999999998,2025,3,Moximate,-22.755278,-46.144444,640314.3
-212,Parceria Agrícola,Camanducaia,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,3,Manfil,-22.755278,-46.144444,640314.3
-213,Nogueira e Oliveira,Poços de Caldas,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,3,Manfil,-21.7900318,-46.5647928,183097.2
-214,Nogueira e Oliveira,Poços de Caldas,Manfil 800WP 10x1kg,720,33.22,23918.399999999998,2025,3,Manfil,-21.7900318,-46.5647928,183097.2
-215,Comercial Martins Bento,Bueno Brandao,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,3,Manfil,-22.441421,-46.3475825,672463.2
-216,Comercial Martins Bento,Bueno Brandao,Manfil 800WP 10x1kg,360,33.22,11959.199999999999,2025,3,Manfil,-22.441421,-46.3475825,672463.2
-217,Bonagro,Senador Amaral,Moximate WP 1x10kg,630,41.08,25880.399999999998,2025,4,Moximate,-22.5875,-46.176667,578839.1
-218,Agrotata,Ipuiúna,Moximate WP 1x10kg,3150,39.3,123794.99999999999,2025,4,Moximate,-22.0993203,-46.1896557,1273285.6
-219,Agroterra,Munhoz,Moximate WP 1x10kg,3150,38.76,122094.0,2025,4,Moximate,-22.613056,-46.360556,1120510.8
-220,Agrotata,Ipuiúna,Moximate WP 1x10kg,2520,38.76,97675.2,2025,4,Moximate,-22.0993203,-46.1896557,1273285.6
-221,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,2520,38.76,97675.2,2025,5,Moximate,-22.1532505,-46.0404698,2882487.9
-222,Agroshop,Pará de Minas,Moximate WP 10x1kg,1800,38.0,68400.0,2025,5,Moximate,-19.8668656,-44.5912664,68400.0
-223,Parceria Agrícola,Camanducaia,Moximate WP 10x1kg,1800,38.0,68400.0,2025,6,Moximate,-22.755278,-46.144444,640314.3
-224,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,2520,38.76,97675.2,2025,6,Moximate,-22.1532505,-46.0404698,2882487.9
-225,Agroterra,Munhoz,Moximate WP 10x1kg,1800,38.0,68400.0,2025,6,Moximate,-22.613056,-46.360556,1120510.8
-226,Agroterra,Munhoz,Moximate WP 10x1kg,720,38.0,27360.0,2025,6,Moximate,-22.613056,-46.360556,1120510.8
-227,Bonagro,Senador Amaral,Moximate WP 10x1kg,1080,38.0,41040.0,2025,7,Moximate,-22.5875,-46.176667,578839.1
-228,Bonagro,Senador Amaral,Moximate WP 1x10kg,1715,38.76,66473.4,2025,7,Moximate,-22.5875,-46.176667,578839.1
-229,Bonagro,Senador Amaral,Moximate WP 1x10kg,805,38.76,31201.8,2025,7,Moximate,-22.5875,-46.176667,578839.1
-230,Parceria Agrícola,Camanducaia,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Manfil,-22.755278,-46.144444,640314.3
-231,Casa do Adubo,Pouso Alegre,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Manfil,-22.2343858,-45.9327241,702745.4
-232,Casa do Adubo,Montes Claros,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,8,Manfil,-16.7495727,-43.8687268,30888.0
-233,Agricola Pinhotti,Congonhal,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Manfil,-22.1532505,-46.0404698,2882487.9
-234,Casa do Adubo,Serra,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,8,Manfil,39.6851966,-0.4281287,138438.0
-235,Casa do Adubo,Nova Friburgo,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Manfil,-22.3061661,-42.4934183,126306.0
-236,Casa do Adubo,Imperatriz,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Manfil,-5.5269279,-47.478115,61776.0
-237,Casa do Adubo,Marabá,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Manfil,-5.3462821,-49.1007401,61776.0
-238,Casa do Adubo,Indaiatuba,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,8,Manfil,-23.0908356,-47.2180677,134648.0
-239,Armazem Agricola,Vinhedo,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,8,Manfil,-23.0298535,-46.9749847,102997.8
-240,Terra Viva,Buri,Manfil 800WP 10x1kg,3240,28.6,92664.0,2025,8,Manfil,-23.79849,-48.598924,92664.0
-241,Natural Verde,Monte Mor,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,8,Manfil,-22.945043,-47.312182,120068.0
-242,Natural Verde,Monte Mor,Manfil 800WP 1x25kg,2100,25.48,53508.0,2025,8,Manfil,-22.945043,-47.312182,120068.0
-243,Agrotecnica,Matão,Manfil 800WP 1x25kg,2050,25.48,52234.0,2025,8,Manfil,-21.6033611,-48.3660603,596660.4
-244,Agrotecnica,Matão,Manfil 800WP 10x1kg,2880,25.48,73382.4,2025,8,Manfil,-21.6033611,-48.3660603,596660.4
-245,Agrotecnica,Matão,Manfil 800WP 1x10kg,4900,25.48,124852.0,2025,8,Manfil,-21.6033611,-48.3660603,596660.4
-246,Minas Sul,Três Corações,Manfil 800WP 1x25kg,7700,25.48,196196.0,2025,8,Manfil,-21.695625,-45.2543675,824131.0
-247,Minas Sul,Três Corações,Manfil 800WP 1x10kg,3780,25.48,96314.40000000001,2025,8,Manfil,-21.695625,-45.2543675,824131.0
-248,Minas Sul,Três Corações,Manfil 800WP 1x25kg,3920,25.48,99881.6,2025,8,Manfil,-21.695625,-45.2543675,824131.0
-249,Agrotata,Ipuiúna,Manfil 800WP 1x25kg,1890,25.48,48157.200000000004,2025,8,Manfil,-22.0993203,-46.1896557,1273285.6
-250,Natural Verde,Monte Mor,Manfil 800WP 1x25kg,1400,25.48,35672.0,2025,9,Manfil,-22.945043,-47.312182,120068.0
-251,Casa do Adubo ,Capao Bonito,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,9,Manfil,-24.0048759,-48.3489848,248588.0
-252,Nogueira e Oliveira,Poços de Caldas,Manfil 800WP 1x10kg,1260,25.48,32104.8,2025,9,Manfil,-21.7900318,-46.5647928,183097.2
-253,Armazem Agricola,Vinhedo,Manfil 800WP 1x10kg,1260,25.48,32104.8,2025,9,Manfil,-23.0298535,-46.9749847,102997.8
-254,Agrotata,Ipuiúna,Manfil 800WP 1x10kg,1890,25.48,48157.200000000004,2025,9,Manfil,-22.0993203,-46.1896557,1273285.6
-255,Casa do Adubo,Uberaba,Manfil 800WP 1x10kg,2520,25.48,64209.6,2025,9,Manfil,-19.750833,-47.936666,64209.6
-256,Casa do Adubo,Redenção,Manfil 800WP 1x10kg,5040,25.48,128419.2,2025,9,Manfil,-4.2243979,-38.7278461,128419.2
-257,Casa do Adubo ,Capao Bonito,Manfil 800WP 1x25kg,3500,28.0,98000.0,2025,10,Manfil,-24.0048759,-48.3489848,248588.0
-258,Agrotata,Ipuiúna,Moximate WP 1x10kg,1260,38.8,48888.0,2025,10,Moximate,-22.0993203,-46.1896557,1273285.6
-259,Ouro Branco,Bueno Brandao,Moximate WP 1x10kg,1260,38.8,48888.0,2025,10,Moximate,-22.441421,-46.3475825,672463.2
-260,Casal Comércio,Indaiatuba,Manfil 800WP 10x1kg,1800,28.6,51480.0,2025,10,Manfil,-23.0908356,-47.2180677,134648.0
-261,Agroneto,Pilar do Sul,Manfil 800WP 1x25kg,2800,27.0,75600.0,2025,10,Manfil,-23.8121684,-47.7201865,545157.5
-262,Agroneto,Pilar do Sul,Manfil 800WP 10x1kg,3600,29.0,104400.0,2025,10,Manfil,-23.8121684,-47.7201865,545157.5
-263,Bonagro,Senador Amaral,Moximate WP 1x10kg,1260,37.27,46960.200000000004,2025,10,Moximate,-22.5875,-46.176667,578839.1
-264,Agroterra,Munhoz,Moximate WP 10x1kg,720,39.9,28728.0,2025,10,Moximate,-22.613056,-46.360556,1120510.8
-265,Agroterra,Munhoz,Moximate WP 1x10kg,2520,37.27,93920.40000000001,2025,10,Moximate,-22.613056,-46.360556,1120510.8
-266,Agroterra,Munhoz,Manfil 800WP 1x25kg,1400,25.68,35952.0,2025,10,Manfil,-22.613056,-46.360556,1120510.8
-267,Agricola Pinhotti,Congonhal,Moximate WP 1x10kg,3150,37.27,117400.50000000001,2025,10,Moximate,-22.1532505,-46.0404698,2882487.9
-268,Bonagro,Senador Amaral,Moximate WP 1x10kg,630,37.27,23480.100000000002,2025,10,Moximate,-22.5875,-46.176667,578839.1
-269,Parceria Agrícola,Camanducaia,Manfil 800WP 1x25kg,1400,25.68,35952.0,2025,10,Manfil,-22.755278,-46.144444,640314.3
+,revenda,cidade,estado,produto,quantidade,preço,total,ano,mes,mes_nome,produto_geral,latitude,longitude,total_por_cidade,safra,mes_safra
+0,Agro Neto,Pilar Do Sul,SP,Xopotó 800 WP 1x10kg,640,21.5,13760.0,2022,6,Junho,Xopotó,-23.8146,-47.7155,516357.5,22/23,2
+1,Agro Neto,Pilar Do Sul,SP,Xopotó 800 WP 1x10kg,360,22.5,8100.0,2022,6,Junho,Xopotó,-23.8146,-47.7155,516357.5,22/23,2
+2,Agro Neto,Pilar Do Sul,SP,Moximate WP 10x1kg,360,41.0,14760.0,2022,6,Junho,Moximate,-23.8146,-47.7155,516357.5,22/23,2
+3,Agro Neto,Pilar Do Sul,SP,Xopotó 800 WP 1x10kg,2560,21.5,55040.0,2022,6,Junho,Xopotó,-23.8146,-47.7155,516357.5,22/23,2
+4,Agrofert,Lambari,MG,Xopotó 800 WP 1x10kg,1080,23.0,24840.0,2022,7,Julho,Xopotó,-21.9743,-45.3525,169084.8,22/23,3
+5,Agrofert,Lambari,MG,Moximate WP 10x1kg,2160,41.5,89640.0,2022,7,Julho,Moximate,-21.9743,-45.3525,169084.8,22/23,3
+6,D’Agro,Itapetininga,SP,Moximate WP 1x10kg,360,42.0,15120.0,2022,7,Julho,Moximate,-23.5879,-48.0461,731580.0,22/23,3
+7,D’Agro,Itapetininga,SP,Xopotó 800 WP 1x10kg,3200,19.2,61440.0,2022,7,Julho,Xopotó,-23.5879,-48.0461,731580.0,22/23,3
+8,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,1280,38.5,49280.0,2022,7,Julho,Moximate,-22.1526,-46.0537,3308716.2,22/23,3
+9,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x20kg,1280,35.0,44800.0,2022,7,Julho,Moximate,-22.1526,-46.0537,3308716.2,22/23,3
+10,Agricola Pinhotti,Congonhal,MG,Xopotó 800 WP 1x10kg,1280,19.2,24576.0,2022,7,Julho,Xopotó,-22.1526,-46.0537,3308716.2,22/23,3
+11,Agricola Pinhotti,Congonhal,MG,Moximate WP 10x1kg,3240,36.0,116640.0,2022,8,Agosto,Moximate,-22.1526,-46.0537,3308716.2,22/23,4
+12,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,5120,32.5,166400.0,2022,8,Agosto,Moximate,-22.1526,-46.0537,3308716.2,22/23,4
+13,Agro Neto,Pilar Do Sul,SP,Moximate WP 10x1kg,360,41.0,14760.0,2022,8,Agosto,Moximate,-23.8146,-47.7155,516357.5,22/23,4
+14,Agro Neto,Pilar Do Sul,SP,Moximate WP 10x1kg,360,41.0,14760.0,2022,8,Agosto,Moximate,-23.8146,-47.7155,516357.5,22/23,4
+15,Agrogarcia Insumos,Três Pontas,MG,Manfil 800WP 1x25kg,3500,24.5,85750.0,2022,10,Outubro,Manfil,-21.3688,-45.5155,85750.0,22/23,6
+16,Casa do Adubo,Pilar Do Sul,SP,Manfil 800WP 1x25kg,1400,23.7,33180.0,2022,11,Novembro,Manfil,-23.8146,-47.7155,516357.5,22/23,7
+17,Casa do Café,Franca,SP,Indozeb 750 WG 1x25kg,2100,26.8,56280.0,2022,11,Novembro,Indozeb,-20.5361,-47.4023,56280.0,22/23,7
+18,Casa do Adubo,Pouso Alegre,MG,Manfil 800WP 1x25kg,1400,21.0,29400.0,2022,12,Dezembro,Manfil,-22.2303,-45.9371,678827.0,22/23,8
+19,Casa do Adubo,Pouso Alegre,MG,Moximate WP 1x10kg,720,36.0,25920.0,2022,12,Dezembro,Moximate,-22.2303,-45.9371,678827.0,22/23,8
+20,D’Agro,Itapetininga,SP,Moximate WP 1x10kg,3200,33.5,107200.0,2022,12,Dezembro,Moximate,-23.5879,-48.0461,731580.0,22/23,8
+21,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x10kg,640,36.0,23040.0,2022,12,Dezembro,Moximate,-22.4362,-46.3534,778439.4,22/23,8
+22,Cooperbatata,Sacramento,MG,Moximate WP 1x10kg,1280,34.0,43520.0,2023,1,Janeiro,Moximate,-19.8636,-47.4366,43520.0,22/23,9
+23,Nova Geração,Cambuí,MG,Moximate WP 10x1kg,1080,35.0,37800.0,2023,1,Janeiro,Moximate,-22.6111,-46.058,166464.0,22/23,9
+24,Fitovet,Paraguaçu,MG,Manfil 800WP 1x25kg,1400,22.62,31668.0,2023,1,Janeiro,Manfil,-21.5473,-45.7327,141988.0,22/23,9
+25,Casa do Adubo,Pilar Do Sul,SP,Moximate WP 10x1kg,360,33.5,12060.0,2023,1,Janeiro,Moximate,-23.8146,-47.7155,516357.5,22/23,9
+26,Casa do Adubo,Pilar Do Sul,SP,Moximate WP 1x10kg,640,33.5,21440.0,2023,1,Janeiro,Moximate,-23.8146,-47.7155,516357.5,22/23,9
+27,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,5120,32.5,166400.0,2023,1,Janeiro,Moximate,-22.1526,-46.0537,3308716.2,22/23,9
+28,D’Agro,Itapetininga,SP,Manfil 800WP 1x25kg,2800,20.0,56000.0,2023,1,Janeiro,Manfil,-23.5879,-48.0461,731580.0,22/23,9
+29,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,1920,32.5,62400.0,2023,1,Janeiro,Moximate,-22.1526,-46.0537,3308716.2,22/23,9
+30,Agricola Pinhotti,Congonhal,MG,Moximate WP 10x1kg,1800,32.5,58500.0,2023,1,Janeiro,Moximate,-22.1526,-46.0537,3308716.2,22/23,9
+31,Agroserv,Itamogi,MG,Indozeb 750 WG 1x25kg,1400,24.0,33600.0,2023,1,Janeiro,Indozeb,-21.0784,-47.0475,141424.19999999998,22/23,9
+32,R Agro,Caconde,SP,Moximate WP 1x10kg,2560,32.0,81920.0,2023,2,Fevereiro,Moximate,-21.5287,-46.6468,835000.0,22/23,10
+33,R Agro,Caconde,SP,Moximate WP 1x10kg,1280,32.0,40960.0,2023,2,Fevereiro,Moximate,-21.5287,-46.6468,835000.0,22/23,10
+34,R Agro,Caconde,SP,Moximate WP 10x1kg,720,32.5,23400.0,2023,2,Fevereiro,Moximate,-21.5287,-46.6468,835000.0,22/23,10
+35,R Agro,Caconde,SP,Indozeb 750 WG 1x25kg,2100,21.0,44100.0,2023,2,Fevereiro,Indozeb,-21.5287,-46.6468,835000.0,22/23,10
+36,D’Agro,Itapetininga,SP,Manfil 800WP 1x25kg,3500,20.0,70000.0,2023,2,Fevereiro,Manfil,-23.5879,-48.0461,731580.0,22/23,10
+37,Agro Neto,Pilar Do Sul,SP,Manfil 800WP 1x25kg,700,20.0,14000.0,2023,2,Fevereiro,Manfil,-23.8146,-47.7155,516357.5,22/23,10
+38,Agro Neto,Pilar Do Sul,SP,Moximate WP 1x10kg,640,34.0,21760.0,2023,2,Fevereiro,Moximate,-23.8146,-47.7155,516357.5,22/23,10
+39,Casa do Adubo,Capão Bonito,SP,Manfil 800WP 1x25kg,6300,19.0,119700.0,2023,2,Fevereiro,Manfil,-24.0068,-48.3514,279512.0,22/23,10
+40,Casa do Adubo,Pilar Do Sul,SP,Indozeb 750 WG 1x25kg,1975,22.5,44437.5,2023,2,Fevereiro,Indozeb,-23.8146,-47.7155,516357.5,22/23,10
+41,Casa do Adubo,Mogi Mirim,SP,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,2,Fevereiro,Manfil,-22.4327,-46.9564,300402.8,22/23,10
+42,Casa do Adubo,Vargem Grande Do Sul,SP,Manfil 800WP 1x25kg,3500,19.0,66500.0,2023,2,Fevereiro,Manfil,-21.8359,-46.8956,343460.0,22/23,10
+43,Casa do Adubo,Pouso Alegre,MG,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,2,Fevereiro,Manfil,-22.2303,-45.9371,678827.0,22/23,10
+44,Minas Sul,Três Corações,MG,Manfil 800WP 1x25kg,10500,19.0,199500.0,2023,2,Fevereiro,Manfil,-21.696,-45.2549,1276113.4,22/23,10
+45,R Agro,Caconde,SP,Manfil 800WP 1x25kg,3500,19.0,66500.0,2023,2,Fevereiro,Manfil,-21.5287,-46.6468,835000.0,22/23,10
+46,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,3500,19.0,66500.0,2023,2,Fevereiro,Manfil,-21.603,-48.3677,673695.4,22/23,10
+47,R Agro,Caconde,SP,Manfil 800WP 1x25kg,5600,18.0,100800.0,2023,3,Março,Manfil,-21.5287,-46.6468,835000.0,22/23,11
+48,Ouro Safra,Itapetininga,SP,Manfil 800WP 1x25kg,4200,19.0,79800.0,2023,3,Março,Manfil,-23.5879,-48.0461,731580.0,22/23,11
+49,Ouro Safra,Itapetininga,SP,Manfil 800WP 1x25kg,3500,19.0,66500.0,2023,3,Março,Manfil,-23.5879,-48.0461,731580.0,22/23,11
+50,R Agro,Caconde,SP,Manfil 800WP 1x25kg,4900,18.0,88200.0,2023,3,Março,Manfil,-21.5287,-46.6468,835000.0,22/23,11
+51,R Agro,Caconde,SP,Moximate WP 1x10kg,10240,32.0,327680.0,2023,3,Março,Moximate,-21.5287,-46.6468,835000.0,22/23,11
+52,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,4480,33.0,147840.0,2023,3,Março,Moximate,-22.1526,-46.0537,3308716.2,22/23,11
+53,Ouro Safra,Itapetininga,SP,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,3,Março,Manfil,-23.5879,-48.0461,731580.0,22/23,11
+54,Ouro Safra,Santa Cruz Do Rio Pardo,SP,Manfil 800WP 1x25kg,2100,18.0,37800.0,2023,4,Abril,Manfil,-22.9057,-49.6246,37800.0,22/23,12
+55,Ouro Safra,Pilar Do Sul,SP,Manfil 800WP 1x25kg,1400,18.0,25200.0,2023,4,Abril,Manfil,-23.8146,-47.7155,516357.5,22/23,12
+56,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,4,Abril,Manfil,-22.1526,-46.0537,3308716.2,22/23,12
+57,Agro Neto,Pilar Do Sul,SP,Manfil 800WP 1x25kg,1400,19.6,27440.000000000004,2023,4,Abril,Manfil,-23.8146,-47.7155,516357.5,22/23,12
+58,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,5120,33.0,168960.0,2023,4,Abril,Moximate,-22.1526,-46.0537,3308716.2,22/23,12
+59,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,1400,19.0,26600.0,2023,4,Abril,Manfil,-22.1526,-46.0537,3308716.2,22/23,12
+60,Armazem Agricola,Campinas,SP,Manfil 800WP 1x25kg,1400,19.0,26600.0,2023,5,Maio,Manfil,-22.9073,-47.0602,65168.0,23/24,1
+61,Qualicitrus,Casa Branca,SP,Moximate WP 1x10kg,1920,35.5,68160.0,2023,5,Maio,Moximate,-21.778,-47.0798,151616.0,23/24,1
+62,Qualicitrus,Mogi Mirim,SP,Moximate WP 1x10kg,1280,35.5,45440.0,2023,5,Maio,Moximate,-22.4327,-46.9564,300402.8,23/24,1
+63,Nova Geração,Cambuí,MG,Moximate WP 1x10kg,1280,35.5,45440.0,2023,5,Maio,Moximate,-22.6111,-46.058,166464.0,23/24,1
+64,Qualicitrus,Pouso Alegre,MG,Moximate WP 1x10kg,1920,35.5,68160.0,2023,5,Maio,Moximate,-22.2303,-45.9371,678827.0,23/24,1
+65,Qualicitrus,Sumaré,SP,Moximate WP 1x10kg,1280,35.5,45440.0,2023,5,Maio,Moximate,-22.8221,-47.2658,45440.0,23/24,1
+66,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,2100,19.0,39900.0,2023,5,Maio,Manfil,-22.1526,-46.0537,3308716.2,23/24,1
+67,Agrotata,Ipuiúna,MG,Moximate WP 1x20kg,1280,35.5,45440.0,2023,5,Maio,Moximate,-22.0995,-46.1908,1404976.6,23/24,1
+68,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x20kg,3840,33.0,126720.0,2023,5,Maio,Moximate,-22.1526,-46.0537,3308716.2,23/24,1
+69,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,640,33.0,21120.0,2023,5,Maio,Moximate,-22.1526,-46.0537,3308716.2,23/24,1
+70,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,1400,20.9,29259.999999999996,2023,7,Julho,Manfil,-21.603,-48.3677,673695.4,23/24,3
+71,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,1400,20.9,29259.999999999996,2023,7,Julho,Manfil,-21.603,-48.3677,673695.4,23/24,3
+72,Cooperbatata,Casa Branca,SP,Moximate WP 1x20kg,2560,32.6,83456.0,2023,7,Julho,Moximate,-21.778,-47.0798,151616.0,23/24,3
+73,Agroterra,Munhoz,MG,Moximate WP 1x10kg,1280,36.4,46592.0,2023,7,Julho,Moximate,-22.6128,-46.3604,1314510.9,23/24,3
+74,Agroterra,Munhoz,MG,Moximate WP 10x1kg,720,38.8,27935.999999999996,2023,7,Julho,Moximate,-22.6128,-46.3604,1314510.9,23/24,3
+75,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 10x1kg,1440,39.8,57311.99999999999,2023,8,Agosto,Moximate,-22.4362,-46.3534,778439.4,23/24,4
+76,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x10kg,640,36.4,23296.0,2023,8,Agosto,Moximate,-22.4362,-46.3534,778439.4,23/24,4
+77,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x5kg,600,38.1,22860.0,2023,8,Agosto,Moximate,-22.4362,-46.3534,778439.4,23/24,4
+78,R Agro,Caconde,SP,Moximate WP 1x10kg,1920,32.0,61440.0,2023,7,Julho,Moximate,-21.5287,-46.6468,835000.0,23/24,3
+79,Agricola Pinhotti,Congonhal,MG,Moximate WP 10x1kg,5040,36.0,181440.0,2023,8,Agosto,Moximate,-22.1526,-46.0537,3308716.2,23/24,4
+80,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,10240,33.5,343040.0,2023,8,Agosto,Moximate,-22.1526,-46.0537,3308716.2,23/24,4
+81,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x20kg,15360,32.5,499200.0,2023,8,Agosto,Moximate,-22.1526,-46.0537,3308716.2,23/24,4
+82,Nova Geração,Cambuí,MG,Moximate WP 10x1kg,1080,37.0,39960.0,2024,8,Agosto,Moximate,-22.6111,-46.058,166464.0,24/25,4
+83,Nova Geração,Cambuí,MG,Moximate WP 1x10kg,1280,33.8,43264.0,2024,8,Agosto,Moximate,-22.6111,-46.058,166464.0,24/25,4
+84,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,6300,20.9,131670.0,2023,8,Agosto,Manfil,-22.1526,-46.0537,3308716.2,23/24,4
+85,Fitovet,Paraguaçu,MG,Manfil 800WP 1x25kg,2100,20.9,43890.0,2023,8,Agosto,Manfil,-21.5473,-45.7327,141988.0,23/24,4
+86,Casa do Adubo,Pouso Alegre,MG,Moximate WP 1x10kg,640,33.2,21248.0,2023,8,Agosto,Moximate,-22.2303,-45.9371,678827.0,23/24,4
+87,Casa do Adubo,Pouso Alegre,MG,Moximate WP 10x1kg,1080,36.0,38880.0,2023,8,Agosto,Moximate,-22.2303,-45.9371,678827.0,23/24,4
+88,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,1400,20.9,29259.999999999996,2023,8,Agosto,Manfil,-21.603,-48.3677,673695.4,23/24,4
+89,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x10kg,2560,31.5,80640.0,2023,8,Agosto,Moximate,-22.7567,-46.1469,699412.2,23/24,4
+90,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,1400,22.7,31780.0,2023,10,Outubro,Manfil,-21.603,-48.3677,673695.4,23/24,6
+91,Agroterra,Munhoz,MG,Moximate WP 1x5kg,1710,36.5,62415.0,2023,10,Outubro,Moximate,-22.6128,-46.3604,1314510.9,23/24,6
+92,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x5kg,1710,37.0,63270.0,2023,10,Outubro,Moximate,-22.4362,-46.3534,778439.4,23/24,6
+93,Agroserv,Itamogi,MG,Indozeb 750 WG 1x25kg,1400,24.7,34580.0,2023,10,Outubro,Indozeb,-21.0784,-47.0475,141424.19999999998,23/24,6
+94,Agroterra,Munhoz,MG,Moximate WP 1x10kg,1280,36.5,46720.0,2023,12,Dezembro,Moximate,-22.6128,-46.3604,1314510.9,23/24,8
+95,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x10kg,640,35.5,22720.0,2024,1,Janeiro,Moximate,-22.4362,-46.3534,778439.4,23/24,9
+96,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 10x1kg,360,38.7,13932.000000000002,2024,1,Janeiro,Moximate,-22.4362,-46.3534,778439.4,23/24,9
+97,Armazem Agricola,Vinhedo,SP,Manfil 800WP 1x25kg,2100,19.05,40005.0,2024,1,Janeiro,Manfil,-23.0305,-46.9765,102997.8,23/24,9
+98,Casa do Adubo,Pouso Alegre,MG,Moximate WP 1x10kg,720,36.0,25920.0,2024,1,Janeiro,Moximate,-22.2303,-45.9371,678827.0,23/24,9
+99,Casa do Adubo,Pouso Alegre,MG,Moximate WP 10x1kg,640,34.5,22080.0,2024,1,Janeiro,Moximate,-22.2303,-45.9371,678827.0,23/24,9
+100,D’Agro,Itapetininga,SP,Manfil 800WP 1x25kg,12600,18.7,235620.0,2024,1,Janeiro,Manfil,-23.5879,-48.0461,731580.0,23/24,9
+101,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,2800,20.44,57232.0,2024,2,Fevereiro,Manfil,-21.603,-48.3677,673695.4,23/24,10
+102,Agrotata,Ipuiúna,MG,Manfil 800WP 1x25kg,1400,19.25,26950.0,2024,2,Fevereiro,Manfil,-22.0995,-46.1908,1404976.6,23/24,10
+103,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,1280,33.1,42368.0,2024,2,Fevereiro,Moximate,-22.0995,-46.1908,1404976.6,23/24,10
+104,Casa do Adubo,Pouso Alegre,MG,Moximate WP 1x10kg,1280,34.5,44160.0,2024,2,Fevereiro,Moximate,-22.2303,-45.9371,678827.0,23/24,10
+105,Casa do Adubo,Pouso Alegre,MG,Moximate WP 10x1kg,720,36.0,25920.0,2024,2,Fevereiro,Moximate,-22.2303,-45.9371,678827.0,23/24,10
+106,Minas Sul,Três Corações,MG,Manfil 800WP 1x25kg,2100,20.95,43995.0,2024,3,Março,Manfil,-21.696,-45.2549,1276113.4,23/24,11
+107,Casa do Adubo,Vargem Grande Do Sul,SP,Moximate WP 10x1kg,720,36.0,25920.0,2024,2,Fevereiro,Moximate,-21.8359,-46.8956,343460.0,23/24,10
+108,Agroterra,Munhoz,MG,Moximate WP 10x1kg,720,38.9,28008.0,2024,3,Março,Moximate,-22.6128,-46.3604,1314510.9,23/24,11
+109,Agrotata,Ipuiúna,MG,Moximate WP 1x5kg,1200,34.9,41880.0,2024,3,Março,Moximate,-22.0995,-46.1908,1404976.6,23/24,11
+110,Agroterra,Munhoz,MG,Manfil 800WP 1x25kg,1400,19.6,27440.000000000004,2024,3,Março,Manfil,-22.6128,-46.3604,1314510.9,23/24,11
+111,Agrotata,Ipuiúna,MG,Moximate WP 1x5kg,3000,34.9,104700.0,2024,3,Março,Moximate,-22.0995,-46.1908,1404976.6,23/24,11
+112,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x5kg,1200,38.5,46200.0,2024,3,Março,Moximate,-22.4362,-46.3534,778439.4,23/24,11
+113,Agrotata,Ipuiúna,MG,Manfil 800WP 1x25kg,2100,19.6,41160.0,2024,3,Março,Manfil,-22.0995,-46.1908,1404976.6,23/24,11
+114,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 10x1kg,720,39.25,28260.0,2024,3,Março,Moximate,-22.4362,-46.3534,778439.4,23/24,11
+115,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 10x1kg,360,39.25,14130.0,2024,5,Maio,Moximate,-22.4362,-46.3534,778439.4,24/25,1
+116,Equilibrio Agricola,Mogi Mirim,SP,Manfil 800WP 1x25kg,1400,21.0,29400.0,2024,4,Abril,Manfil,-22.4327,-46.9564,300402.8,23/24,12
+117,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 10x1kg,720,24.7,17784.0,2024,4,Abril,Manfil,-22.7567,-46.1469,699412.2,23/24,12
+118,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x10kg,640,36.0,23040.0,2024,4,Abril,Moximate,-22.7567,-46.1469,699412.2,23/24,12
+119,Agro Neto,Pilar Do Sul,SP,Manfil 800WP 10x1kg,1800,24.7,44460.0,2024,3,Março,Manfil,-23.8146,-47.7155,516357.5,23/24,11
+120,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,4900,21.0,102900.0,2024,3,Março,Manfil,-21.603,-48.3677,673695.4,23/24,11
+121,Agroterra,Munhoz,MG,Manfil 800WP 10x1kg,720,23.0,16560.0,2024,3,Março,Manfil,-22.6128,-46.3604,1314510.9,23/24,11
+122,Minas Sul,Três Corações,MG,Manfil 800WP 1x25kg,4900,21.0,102900.0,2024,3,Março,Manfil,-21.696,-45.2549,1276113.4,23/24,11
+123,Fitovet,Paraguaçu,MG,Manfil 800WP 1x25kg,1400,21.0,29400.0,2024,4,Abril,Manfil,-21.5473,-45.7327,141988.0,23/24,12
+124,Casa do Adubo,Pouso Alegre,MG,Manfil 800WP 10x1kg,720,23.0,16560.0,2024,7,Julho,Manfil,-22.2303,-45.9371,678827.0,24/25,3
+125,Casa do Adubo,Nova Friburgo,RJ,Manfil 800WP 10x1kg,1080,23.0,24840.0,2024,7,Julho,Manfil,-22.2865,-42.5328,126306.0,24/25,3
+126,Casal Comércio,Indaiatuba,SP,Manfil 800WP 1x25kg,1400,19.6,27440.000000000004,2024,4,Abril,Manfil,-23.0816,-47.2123,134648.0,23/24,12
+127,Casal Comércio,Indaiatuba,SP,Manfil 800WP 10x1kg,1080,23.0,24840.0,2024,4,Abril,Manfil,-23.0816,-47.2123,134648.0,23/24,12
+128,Casa do Adubo,Serra,ES,Manfil 800WP 10x1kg,1800,23.0,41400.0,2024,7,Julho,Manfil,-20.1568,-40.2752,138438.0,24/25,3
+129,Casa do Adubo,Pouso Alegre,MG,Manfil 800WP 1x25kg,2100,19.6,41160.0,2024,4,Abril,Manfil,-22.2303,-45.9371,678827.0,23/24,12
+130,Casa do Adubo,Contagem,MG,Manfil 800WP 10x1kg,720,23.0,16560.0,2024,7,Julho,Manfil,-19.9434,-44.0663,16560.0,24/25,3
+131,Minas Sul,Três Corações,MG,Manfil 800WP 1x25kg,4200,20.32,85344.0,2024,5,Maio,Manfil,-21.696,-45.2549,1276113.4,24/25,1
+132,Agrotata,Ipuiúna,MG,Manfil 800WP 1x25kg,3500,18.9,66150.0,2024,5,Maio,Manfil,-22.0995,-46.1908,1404976.6,24/25,1
+133,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,1920,33.7,64704.00000000001,2024,5,Maio,Moximate,-22.0995,-46.1908,1404976.6,24/25,1
+134,Casa do Adubo,Serra,ES,Manfil 800WP 1x25kg,3500,18.9,66150.0,2024,5,Maio,Manfil,-20.1568,-40.2752,138438.0,24/25,1
+135,Casa do Adubo,Nova Friburgo,RJ,Manfil 800WP 1x25kg,2100,18.9,39690.0,2024,5,Maio,Manfil,-22.2865,-42.5328,126306.0,24/25,1
+136,Agrofert,Lambari,MG,Manfil 800WP 10x1kg,720,25.21,18151.2,2024,7,Julho,Manfil,-21.9743,-45.3525,169084.8,24/25,3
+137,Casa do Adubo,Pouso Alegre,MG,Manfil 800WP 1x25kg,1400,18.9,26459.999999999996,2024,6,Junho,Manfil,-22.2303,-45.9371,678827.0,24/25,2
+138,Bonagro,Senador Amaral,MG,Manfil 800WP 1x25kg,700,18.62,13034.0,2024,6,Junho,Manfil,-22.5887,-46.1802,578839.1,24/25,2
+139,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,2560,34.72,88883.2,2024,6,Junho,Moximate,-22.5887,-46.1802,578839.1,24/25,2
+140,Naroca,Maria Da Fé,MG,Moximate WP 1x10kg,640,36.23,23187.199999999997,2024,5,Maio,Moximate,-22.3072,-45.3711,50067.2,24/25,1
+141,Agrotata,Ipuiúna,MG,Manfil 800WP 1x25kg,1400,19.05,26670.0,2024,6,Junho,Manfil,-22.0995,-46.1908,1404976.6,24/25,2
+142,Parceria Agrícola,Camanducaia,MG,Moximate WP 10x1kg,360,39.72,14299.199999999999,2024,11,Novembro,Moximate,-22.7567,-46.1469,699412.2,24/25,7
+143,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x10kg,630,36.23,22824.899999999998,2024,11,Novembro,Moximate,-22.7567,-46.1469,699412.2,24/25,7
+144,Parceria Agrícola,Camanducaia,MG,Moximate WP 10x1kg,720,39.72,28598.399999999998,2024,10,Outubro,Moximate,-22.7567,-46.1469,699412.2,24/25,6
+145,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x10kg,640,36.23,23187.199999999997,2024,10,Outubro,Moximate,-22.7567,-46.1469,699412.2,24/25,6
+146,Parceria Agrícola,Camanducaia,MG,Moximate WP 10x1kg,360,39.72,14299.199999999999,2024,8,Agosto,Moximate,-22.7567,-46.1469,699412.2,24/25,4
+147,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x10kg,640,36.23,23187.199999999997,2024,8,Agosto,Moximate,-22.7567,-46.1469,699412.2,24/25,4
+148,Parceria Agrícola,Camanducaia,MG,Moximate WP 10x1kg,360,39.72,14299.199999999999,2024,9,Setembro,Moximate,-22.7567,-46.1469,699412.2,24/25,5
+149,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x10kg,610,36.23,22100.3,2024,9,Setembro,Moximate,-22.7567,-46.1469,699412.2,24/25,5
+150,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 1x25kg,1400,20.76,29064.000000000004,2024,8,Agosto,Manfil,-22.7567,-46.1469,699412.2,24/25,4
+151,Parceria Agrícola,Camanducaia,MG,Indozeb 750 WG 1x25kg,700,24.74,17318.0,2024,8,Agosto,Indozeb,-22.7567,-46.1469,699412.2,24/25,4
+152,Agroterra,Munhoz,MG,Moximate WP 10x1kg,360,36.95,13302.000000000002,2024,8,Agosto,Moximate,-22.6128,-46.3604,1314510.9,24/25,4
+153,Agroterra,Munhoz,MG,Moximate WP 1x10kg,640,33.7,21568.0,2024,6,Junho,Moximate,-22.6128,-46.3604,1314510.9,24/25,2
+154,Agroterra,Munhoz,MG,Manfil 800WP 1x25kg,700,19.05,13335.0,2024,6,Junho,Manfil,-22.6128,-46.3604,1314510.9,24/25,2
+155,Agroterra,Munhoz,MG,Moximate WP 1x10kg,640,33.7,21568.0,2024,6,Junho,Moximate,-22.6128,-46.3604,1314510.9,24/25,2
+156,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,3200,33.7,107840.00000000001,2024,6,Junho,Moximate,-22.0995,-46.1908,1404976.6,24/25,2
+157,Casa do Adubo,Pouso Alegre,MG,Moximate WP 1x10kg,640,33.7,21568.0,2024,6,Junho,Moximate,-22.2303,-45.9371,678827.0,24/25,2
+158,Agroterra,Munhoz,MG,Moximate WP 1x10kg,640,33.7,21568.0,2024,6,Junho,Moximate,-22.6128,-46.3604,1314510.9,24/25,2
+159,Agroterra,Munhoz,MG,Moximate WP 10x1kg,360,36.95,13302.000000000002,2024,8,Agosto,Moximate,-22.6128,-46.3604,1314510.9,24/25,4
+160,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,1280,34.72,44441.6,2024,8,Agosto,Moximate,-22.5887,-46.1802,578839.1,24/25,4
+161,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,640,34.72,22220.8,2024,8,Agosto,Moximate,-22.5887,-46.1802,578839.1,24/25,4
+162,Casa do Adubo,Pouso Alegre,MG,Moximate WP 1x10kg,640,36.5,23360.0,2024,7,Julho,Moximate,-22.2303,-45.9371,678827.0,24/25,3
+163,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,2560,38.63,98892.8,2024,10,Outubro,Moximate,-22.5887,-46.1802,578839.1,24/25,6
+164,Agroterra,Munhoz,MG,Moximate WP 1x10kg,1280,37.5,48000.0,2024,8,Agosto,Moximate,-22.6128,-46.3604,1314510.9,24/25,4
+165,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x5kg,1200,42.43,50916.0,2024,8,Agosto,Moximate,-22.4362,-46.3534,778439.4,24/25,4
+166,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x10kg,640,40.31,25798.4,2024,8,Agosto,Moximate,-22.4362,-46.3534,778439.4,24/25,4
+167,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 10x1kg,720,44.4,31968.0,2024,8,Agosto,Moximate,-22.4362,-46.3534,778439.4,24/25,4
+168,Casa do Adubo,Vargem Grande Do Sul,SP,Moximate WP 1x10kg,2560,39.0,99840.0,2024,8,Agosto,Moximate,-21.8359,-46.8956,343460.0,24/25,4
+169,Agroterra,Munhoz,MG,Moximate WP 1x10kg,1280,39.0,49920.0,2024,8,Agosto,Moximate,-22.6128,-46.3604,1314510.9,24/25,4
+170,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,1280,39.0,49920.0,2024,9,Setembro,Moximate,-22.0995,-46.1908,1404976.6,24/25,5
+171,Produtiva Agropecuaria,Socorro,SP,Moximate WP 1x10kg,1920,42.0,80640.0,2024,10,Outubro,Moximate,-22.592,-46.5292,80640.0,24/25,6
+172,Naroca,Maria Da Fé,MG,Moximate WP 1x10kg,640,42.0,26880.0,2024,10,Outubro,Moximate,-22.3072,-45.3711,50067.2,24/25,6
+173,Agroterra,Munhoz,MG,Moximate WP 1x10kg,2520,39.0,98280.0,2024,11,Novembro,Moximate,-22.6128,-46.3604,1314510.9,24/25,7
+174,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 10x1kg,720,44.4,31968.0,2024,11,Novembro,Moximate,-22.4362,-46.3534,778439.4,24/25,7
+175,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x5kg,600,42.73,25637.999999999996,2024,12,Dezembro,Moximate,-22.4362,-46.3534,778439.4,24/25,8
+176,Comercial Martins Bento,Bueno Brandão,MG,Manfil 800WP 10x1kg,360,28.5,10260.0,2024,11,Novembro,Manfil,-22.4362,-46.3534,778439.4,24/25,7
+177,Bonagro,Senador Amaral,MG,Moximate WP 1x5kg,600,40.95,24570.0,2024,12,Dezembro,Moximate,-22.5887,-46.1802,578839.1,24/25,8
+178,Agrofert,Lambari,MG,Manfil 800WP 10x1kg,720,29.36,21139.2,2024,11,Novembro,Manfil,-21.9743,-45.3525,169084.8,24/25,7
+179,Agrofert,Lambari,MG,Moximate WP 10x1kg,360,42.54,15314.4,2024,11,Novembro,Moximate,-21.9743,-45.3525,169084.8,24/25,7
+180,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x5kg,600,42.73,25637.999999999996,2024,12,Dezembro,Moximate,-22.7567,-46.1469,699412.2,24/25,8
+181,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 10x1kg,720,30.64,22060.8,2024,11,Novembro,Manfil,-22.7567,-46.1469,699412.2,24/25,7
+182,Agroterra,Munhoz,MG,Manfil 800WP 10x1kg,360,44.4,15984.0,2024,11,Novembro,Manfil,-22.6128,-46.3604,1314510.9,24/25,7
+183,Nogueira e Oliveira,Poços De Caldas,MG,Manfil 800WP 10x1kg,360,44.4,15984.0,2024,11,Novembro,Manfil,-21.7874,-46.5664,299616.4,24/25,7
+184,Casa do Adubo,Pouso Alegre,MG,Moximate WP 1x10kg,1890,37.5,70875.0,2024,11,Novembro,Moximate,-22.2303,-45.9371,678827.0,24/25,7
+185,Casa do Adubo,Pouso Alegre,MG,Manfil 800WP 10x1kg,1440,28.5,41040.0,2024,11,Novembro,Manfil,-22.2303,-45.9371,678827.0,24/25,7
+186,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x10kg,1260,42.25,53235.0,2025,1,Janeiro,Moximate,-22.4362,-46.3534,778439.4,24/25,9
+187,Agroterra,Munhoz,MG,Moximate WP 1x10kg,630,42.25,26617.5,2025,1,Janeiro,Moximate,-22.6128,-46.3604,1314510.9,24/25,9
+188,Agroterra,Munhoz,MG,Moximate WP 10x1kg,360,44.72,16099.199999999999,2025,1,Janeiro,Moximate,-22.6128,-46.3604,1314510.9,24/25,9
+189,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 10x1kg,1080,44.72,48297.6,2025,1,Janeiro,Moximate,-22.4362,-46.3534,778439.4,24/25,9
+190,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,3150,39.3,123794.99999999999,2025,1,Janeiro,Moximate,-22.0995,-46.1908,1404976.6,24/25,9
+191,Agrotata,Ipuiúna,MG,Manfil 800WP 10x1kg,720,30.9,22248.0,2025,1,Janeiro,Manfil,-22.0995,-46.1908,1404976.6,24/25,9
+192,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,630,41.08,25880.399999999998,2025,1,Janeiro,Moximate,-22.5887,-46.1802,578839.1,24/25,9
+193,Agroterra,Munhoz,MG,Moximate WP 1x10kg,630,42.25,26617.5,2025,1,Janeiro,Moximate,-22.6128,-46.3604,1314510.9,24/25,9
+194,Agroterra,Munhoz,MG,Manfil 800WP 10x1kg,360,33.22,11959.199999999999,2025,1,Janeiro,Manfil,-22.6128,-46.3604,1314510.9,24/25,9
+195,Minas Sul,Três Corações,MG,Manfil 800WP 10x1kg,720,33.22,23918.399999999998,2025,2,Fevereiro,Manfil,-21.696,-45.2549,1276113.4,24/25,10
+196,Agrotata,Ipuiúna,MG,Manfil 800WP 10x1kg,720,30.9,22248.0,2025,2,Fevereiro,Manfil,-22.0995,-46.1908,1404976.6,24/25,10
+197,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,630,41.08,25880.399999999998,2025,2,Fevereiro,Moximate,-22.5887,-46.1802,578839.1,24/25,10
+198,Agroterra,Munhoz,MG,Manfil 800WP 1x25kg,1400,26.45,37030.0,2025,2,Fevereiro,Manfil,-22.6128,-46.3604,1314510.9,24/25,10
+199,Agrotata,Ipuiúna,MG,Manfil 800WP 1x25kg,4900,24.6,120540.0,2025,3,Março,Manfil,-22.0995,-46.1908,1404976.6,24/25,11
+200,Nogueira e Oliveira,Poços De Caldas,MG,Manfil 800WP 1x25kg,1400,26.45,37030.0,2025,2,Fevereiro,Manfil,-21.7874,-46.5664,299616.4,24/25,10
+201,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,2,Fevereiro,Manfil,-22.7567,-46.1469,699412.2,24/25,10
+202,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x10kg,630,42.25,26617.5,2025,2,Fevereiro,Moximate,-22.7567,-46.1469,699412.2,24/25,10
+203,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,3500,26.45,92575.0,2025,2,Fevereiro,Manfil,-22.1526,-46.0537,3308716.2,24/25,10
+204,Agroserv,Itamogi,MG,Manfil 800WP 10x1kg,360,33.22,11959.199999999999,2025,2,Fevereiro,Manfil,-21.0784,-47.0475,141424.19999999998,24/25,10
+205,Agroserv,Itamogi,MG,Indozeb 750 WG 1x25kg,700,28.05,19635.0,2025,2,Fevereiro,Indozeb,-21.0784,-47.0475,141424.19999999998,24/25,10
+206,Fitovet,Paraguaçu,MG,Manfil 800WP 1x25kg,1400,26.45,37030.0,2025,2,Fevereiro,Manfil,-21.5473,-45.7327,141988.0,24/25,10
+207,Nogueira e Oliveira,Poços De Caldas,MG,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,2,Fevereiro,Manfil,-21.7874,-46.5664,299616.4,24/25,10
+208,Casa do Adubo,Pouso Alegre,MG,Manfil 800WP 1x25kg,1400,24.6,34440.0,2025,3,Março,Manfil,-22.2303,-45.9371,678827.0,24/25,11
+209,Nogueira e Oliveira,Poços De Caldas,MG,Manfil 800WP 1x25kg,1400,26.45,37030.0,2025,3,Março,Manfil,-21.7874,-46.5664,299616.4,24/25,11
+210,Agroterra,Munhoz,MG,Moximate WP 1x10kg,1260,42.25,53235.0,2025,4,Abril,Moximate,-22.6128,-46.3604,1314510.9,24/25,12
+211,Parceria Agrícola,Camanducaia,MG,Moximate WP 10x1kg,720,44.72,32198.399999999998,2025,4,Abril,Moximate,-22.7567,-46.1469,699412.2,24/25,12
+212,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,4,Abril,Manfil,-22.7567,-46.1469,699412.2,24/25,12
+213,Nogueira e Oliveira,Poços De Caldas,MG,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,4,Abril,Manfil,-21.7874,-46.5664,299616.4,24/25,12
+214,Nogueira e Oliveira,Poços De Caldas,MG,Manfil 800WP 10x1kg,720,33.22,23918.399999999998,2025,4,Abril,Manfil,-21.7874,-46.5664,299616.4,24/25,12
+215,Comercial Martins Bento,Bueno Brandão,MG,Manfil 800WP 1x25kg,700,26.45,18515.0,2025,4,Abril,Manfil,-22.4362,-46.3534,778439.4,24/25,12
+216,Comercial Martins Bento,Bueno Brandão,MG,Manfil 800WP 10x1kg,360,33.22,11959.199999999999,2025,4,Abril,Manfil,-22.4362,-46.3534,778439.4,24/25,12
+217,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,630,41.08,25880.399999999998,2025,4,Abril,Moximate,-22.5887,-46.1802,578839.1,24/25,12
+218,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,3150,39.3,123794.99999999999,2025,4,Abril,Moximate,-22.0995,-46.1908,1404976.6,24/25,12
+219,Agroterra,Munhoz,MG,Moximate WP 1x10kg,3150,38.76,122094.0,2025,4,Abril,Moximate,-22.6128,-46.3604,1314510.9,24/25,12
+220,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,2520,38.76,97675.2,2025,4,Abril,Moximate,-22.0995,-46.1908,1404976.6,24/25,12
+221,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,2520,38.76,97675.2,2025,5,Maio,Moximate,-22.1526,-46.0537,3308716.2,25/26,1
+222,Parceria Agrícola,Camanducaia,MG,Moximate WP 10x1kg,1800,38.0,68400.0,2025,6,Junho,Moximate,-22.7567,-46.1469,699412.2,25/26,2
+223,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,2520,38.76,97675.2,2025,6,Junho,Moximate,-22.1526,-46.0537,3308716.2,25/26,2
+224,Agroterra,Munhoz,MG,Moximate WP 10x1kg,1800,38.0,68400.0,2025,6,Junho,Moximate,-22.6128,-46.3604,1314510.9,25/26,2
+225,Agroterra,Munhoz,MG,Moximate WP 10x1kg,720,38.0,27360.0,2025,6,Junho,Moximate,-22.6128,-46.3604,1314510.9,25/26,2
+226,Bonagro,Senador Amaral,MG,Moximate WP 10x1kg,1080,38.0,41040.0,2025,7,Julho,Moximate,-22.5887,-46.1802,578839.1,25/26,3
+227,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,1715,38.76,66473.4,2025,7,Julho,Moximate,-22.5887,-46.1802,578839.1,25/26,3
+228,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,805,38.76,31201.8,2025,7,Julho,Moximate,-22.5887,-46.1802,578839.1,25/26,3
+229,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Agosto,Manfil,-22.7567,-46.1469,699412.2,25/26,4
+230,Casa do Adubo,Pouso Alegre,MG,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Agosto,Manfil,-22.2303,-45.9371,678827.0,25/26,4
+231,Casa do Adubo,Montes Claros,MG,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,8,Agosto,Manfil,-16.7227,-43.8654,30888.0,25/26,4
+232,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Agosto,Manfil,-22.1526,-46.0537,3308716.2,25/26,4
+233,Casa do Adubo,Serra,ES,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,8,Agosto,Manfil,-20.1568,-40.2752,138438.0,25/26,4
+234,Casa do Adubo,Nova Friburgo,RJ,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Agosto,Manfil,-22.2865,-42.5328,126306.0,25/26,4
+235,Casa do Adubo,Imperatriz,MA,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Agosto,Manfil,-5.5265,-47.4798,61776.0,25/26,4
+236,Casa do Adubo,Marabá,PA,Manfil 800WP 10x1kg,2160,28.6,61776.0,2025,8,Agosto,Manfil,-5.3526,-49.142,61776.0,25/26,4
+237,Casa do Adubo,Indaiatuba,SP,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,8,Agosto,Manfil,-23.0816,-47.2123,134648.0,25/26,4
+238,Armazem Agricola,Vinhedo,SP,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,9,Setembro,Manfil,-23.0305,-46.9765,102997.8,25/26,5
+239,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,2050,25.48,52234.0,2025,9,Setembro,Manfil,-21.603,-48.3677,673695.4,25/26,5
+240,Agrotecnica,Matão,SP,Manfil 800WP 10x1kg,2880,25.48,73382.4,2025,9,Setembro,Manfil,-21.603,-48.3677,673695.4,25/26,5
+241,Agrotecnica,Matão,SP,Manfil 800WP 1x10kg,4900,25.48,124852.0,2025,9,Setembro,Manfil,-21.603,-48.3677,673695.4,25/26,5
+242,Minas Sul,Três Corações,MG,Manfil 800WP 1x25kg,7700,25.48,196196.0,2025,9,Setembro,Manfil,-21.696,-45.2549,1276113.4,25/26,5
+243,Minas Sul,Três Corações,MG,Manfil 800WP 1x10kg,3780,25.48,96314.40000000001,2025,9,Setembro,Manfil,-21.696,-45.2549,1276113.4,25/26,5
+244,Minas Sul,Três Corações,MG,Manfil 800WP 1x25kg,3920,25.48,99881.6,2025,8,Agosto,Manfil,-21.696,-45.2549,1276113.4,25/26,4
+245,Agrotata,Ipuiúna,MG,Manfil 800WP 1x25kg,1890,25.48,48157.200000000004,2025,9,Setembro,Manfil,-22.0995,-46.1908,1404976.6,25/26,5
+246,Casa do Adubo,Capão Bonito,SP,Manfil 800WP 10x1kg,1080,28.6,30888.0,2025,9,Setembro,Manfil,-24.0068,-48.3514,279512.0,25/26,5
+247,Nogueira e Oliveira,Poços De Caldas,MG,Manfil 800WP 1x10kg,1260,25.48,32104.8,2025,9,Setembro,Manfil,-21.7874,-46.5664,299616.4,25/26,5
+248,Armazem Agricola,Vinhedo,SP,Manfil 800WP 1x10kg,1260,25.48,32104.8,2025,9,Setembro,Manfil,-23.0305,-46.9765,102997.8,25/26,5
+249,Agrotata,Ipuiúna,MG,Manfil 800WP 1x10kg,1890,25.48,48157.200000000004,2025,9,Setembro,Manfil,-22.0995,-46.1908,1404976.6,25/26,5
+250,Casa do Adubo,Uberaba,MG,Manfil 800WP 1x10kg,2520,25.48,64209.6,2025,9,Setembro,Manfil,-19.7135,-47.9836,64209.6,25/26,5
+251,Casa do Adubo,Redenção,CE,Manfil 800WP 1x10kg,5040,25.48,128419.2,2025,9,Setembro,Manfil,-4.223,-38.7296,256838.4,25/26,5
+252,Casa do Adubo,Redenção,PA,Manfil 800WP 1x10kg,5040,25.48,128419.2,2025,9,Setembro,Manfil,-8.0276,-50.0296,256838.4,25/26,5
+253,Casa do Adubo,Capão Bonito,SP,Manfil 800WP 1x25kg,3500,25.48,89180.0,2025,10,Outubro,Manfil,-24.0068,-48.3514,279512.0,25/26,6
+254,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,1260,38.8,48888.0,2025,10,Outubro,Moximate,-22.0995,-46.1908,1404976.6,25/26,6
+255,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x10kg,1260,38.8,48888.0,2025,10,Outubro,Moximate,-22.4362,-46.3534,778439.4,25/26,6
+256,Casal Comércio,Indaiatuba,SP,Manfil 800WP 10x1kg,1800,28.6,51480.0,2025,10,Outubro,Manfil,-23.0816,-47.2123,134648.0,25/26,6
+257,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,1260,37.27,46960.200000000004,2025,11,Novembro,Moximate,-22.5887,-46.1802,578839.1,25/26,7
+258,Agroterra,Munhoz,MG,Moximate WP 10x1kg,720,39.9,28728.0,2025,11,Novembro,Moximate,-22.6128,-46.3604,1314510.9,25/26,7
+259,Agroterra,Munhoz,MG,Moximate WP 1x10kg,2520,37.27,93920.40000000001,2025,11,Novembro,Moximate,-22.6128,-46.3604,1314510.9,25/26,7
+260,Agroterra,Munhoz,MG,Manfil 800WP 1x25kg,1400,25.68,35952.0,2025,11,Novembro,Manfil,-22.6128,-46.3604,1314510.9,25/26,7
+261,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,3150,37.27,117400.50000000001,2025,11,Novembro,Moximate,-22.1526,-46.0537,3308716.2,25/26,7
+262,Bonagro,Senador Amaral,MG,Moximate WP 1x10kg,630,37.27,23480.100000000002,2025,11,Novembro,Moximate,-22.5887,-46.1802,578839.1,25/26,7
+263,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 1x25kg,1400,25.68,35952.0,2025,11,Novembro,Manfil,-22.7567,-46.1469,699412.2,25/26,7
+264,Casa do Adubo,Capão Bonito,SP,Manfil 800WP 10x1kg,1440,27.6,39744.0,2025,11,Novembro,Manfil,-24.0068,-48.3514,279512.0,25/26,7
+265,Agroterra,Munhoz,MG,Moximate WP 1x10kg,1260,37.27,46960.200000000004,2025,11,Novembro,Moximate,-22.6128,-46.3604,1314510.9,25/26,7
+266,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,1890,37.27,70440.3,2025,12,Dezembro,Moximate,-22.1526,-46.0537,3308716.2,25/26,8
+267,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,700,25.68,17976.0,2025,12,Dezembro,Manfil,-22.1526,-46.0537,3308716.2,25/26,8
+268,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 10x1kg,360,28.6,10296.0,2025,12,Dezembro,Manfil,-22.1526,-46.0537,3308716.2,25/26,8
+269,Casa do Adubo,Vargem Grande Do Sul,SP,Indozeb 750 WG 1x25kg,5600,27.0,151200.0,2025,12,Dezembro,Indozeb,-21.8359,-46.8956,343460.0,25/26,8
+270,Casa do Adubo,Pilar Do Sul,SP,Indozeb 750 WG 1x25kg,5600,27.0,151200.0,2025,12,Dezembro,Indozeb,-23.8146,-47.7155,516357.5,25/26,8
+271,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,1260,37.27,46960.200000000004,2025,12,Dezembro,Moximate,-22.1526,-46.0537,3308716.2,25/26,8
+272,Comercial Martins Bento,Bueno Brandão,MG,Manfil 800WP 1x25kg,700,25.68,17976.0,2025,12,Dezembro,Manfil,-22.4362,-46.3534,778439.4,25/26,8
+273,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 10x1kg,1080,38.0,41040.0,2025,12,Dezembro,Moximate,-22.4362,-46.3534,778439.4,25/26,8
+274,Comercial Martins Bento,Bueno Brandão,MG,Moximate WP 1x10kg,1260,37.27,46960.200000000004,2025,12,Dezembro,Moximate,-22.4362,-46.3534,778439.4,25/26,8
+275,Armazem Agricola,Campinas,SP,Manfil 800WP 10x1kg,720,28.6,20592.0,2026,1,Janeiro,Manfil,-22.9073,-47.0602,65168.0,25/26,9
+276,Armazem Agricola,Campinas,SP,Manfil 800WP 1x10kg,700,25.68,17976.0,2026,1,Janeiro,Manfil,-22.9073,-47.0602,65168.0,25/26,9
+277,Minas Sul,Três Corações,MG,Indozeb 750 WG 1x25kg,9800,22.65,221970.0,2026,1,Janeiro,Indozeb,-21.696,-45.2549,1276113.4,25/26,9
+278,Minas Sul,Três Corações,MG,Manfil 800WP 1x25kg,9800,21.03,206094.0,2026,1,Janeiro,Manfil,-21.696,-45.2549,1276113.4,25/26,9
+279,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 1x25kg,1400,21.03,29442.0,2026,1,Janeiro,Manfil,-22.7567,-46.1469,699412.2,25/26,9
+280,Parceria Agrícola,Camanducaia,MG,Manfil 800WP 10x1kg,360,22.86,8229.6,2026,1,Janeiro,Manfil,-22.7567,-46.1469,699412.2,25/26,9
+281,Parceria Agrícola,Camanducaia,MG,Moximate WP 1x10kg,630,34.01,21426.3,2026,1,Janeiro,Moximate,-22.7567,-46.1469,699412.2,25/26,9
+282,Fazenda São Marco,Itapeva,SP,Manfil 800WP 1x25kg,4200,21.0,88200.0,2026,1,Janeiro,Manfil,-23.9834,-48.8774,176400.0,25/26,9
+283,Fazenda São Marco,Itapeva,MG,Manfil 800WP 1x25kg,4200,21.0,88200.0,2026,1,Janeiro,Manfil,-22.7697,-46.2196,176400.0,25/26,9
+284,Equilibrio Agricola,Mogi Mirim,SP,Indozeb 750 WG 1x25kg,2100,22.65,47565.0,2026,1,Janeiro,Indozeb,-22.4327,-46.9564,300402.8,25/26,9
+285,Equilibrio Agricola,Mogi Mirim,SP,Manfil 800WP 10x1kg,360,22.86,8229.6,2026,1,Janeiro,Manfil,-22.4327,-46.9564,300402.8,25/26,9
+286,Equilibrio Agricola,Mogi Mirim,SP,Manfil 800WP 1x25kg,2100,21.03,44163.0,2026,1,Janeiro,Manfil,-22.4327,-46.9564,300402.8,25/26,9
+287,Equilibrio Agricola,Mogi Mirim,SP,Moximate WP 1x10kg,2520,34.01,85705.2,2026,1,Janeiro,Moximate,-22.4327,-46.9564,300402.8,25/26,9
+288,Agroserv,Itamogi,MG,Indozeb 750 WG 1x25kg,1400,22.65,31709.999999999996,2026,1,Janeiro,Indozeb,-21.0784,-47.0475,141424.19999999998,25/26,9
+289,Agroserv,Itamogi,MG,Preventis SC 10L,500,19.88,9940.0,2026,1,Janeiro,Preventis,-21.0784,-47.0475,141424.19999999998,25/26,9
+290,Agroterra,Munhoz,MG,Manfil 800WP 1x25kg,700,21.03,14721.0,2026,1,Janeiro,Manfil,-22.6128,-46.3604,1314510.9,25/26,9
+291,Agroterra,Munhoz,MG,Moximate WP 1x10kg,630,34.01,21426.3,2026,1,Janeiro,Moximate,-22.6128,-46.3604,1314510.9,25/26,9
+292,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,1260,32.5,40950.0,2026,2,Fevereiro,Moximate,-22.0995,-46.1908,1404976.6,25/26,10
+293,Agroterra,Munhoz,MG,Moximate WP 1x10kg,1260,34.01,42852.6,2026,2,Fevereiro,Moximate,-22.6128,-46.3604,1314510.9,25/26,10
+294,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,1400,21.03,29442.0,2026,2,Fevereiro,Manfil,-22.1526,-46.0537,3308716.2,25/26,10
+295,Agrotecnica,Matão,SP,Manfil 800WP 1x25kg,3500,22.01,77035.0,2026,2,Fevereiro,Manfil,-21.603,-48.3677,673695.4,25/26,10
+296,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,700,21.03,14721.0,2026,3,Março,Manfil,-22.1526,-46.0537,3308716.2,25/26,11
+297,Agricola Pinhotti,Congonhal,MG,Indozeb 750 WG 1x25kg,700,22.65,15854.999999999998,2026,3,Março,Indozeb,-22.1526,-46.0537,3308716.2,25/26,11
+298,Nogueira e Oliveira,Poços De Caldas,MG,Manfil 800WP 1x25kg,1400,22.01,30814.000000000004,2026,3,Março,Manfil,-21.7874,-46.5664,299616.4,25/26,11
+299,Nogueira e Oliveira,Poços De Caldas,MG,Moximate WP 10x1kg,2520,34.01,85705.2,2026,3,Março,Moximate,-21.7874,-46.5664,299616.4,25/26,11
+300,Agricola Pinhotti,Congonhal,MG,Manfil 800WP 1x25kg,1260,22.01,27732.600000000002,2026,4,Abril,Manfil,-22.1526,-46.0537,3308716.2,25/26,12
+301,Agrotata,Ipuiúna,MG,Manfil 800WP 1x25kg,2100,20.41,42861.0,2026,4,Abril,Manfil,-22.0995,-46.1908,1404976.6,25/26,12
+302,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,2520,34.01,85705.2,2026,3,Março,Moximate,-22.1526,-46.0537,3308716.2,25/26,11
+303,Agroterra,Munhoz,MG,Moximate WP 1x10kg,1890,36.0,68040.0,2026,4,Abril,Moximate,-22.6128,-46.3604,1314510.9,25/26,12
+304,Agrotata,Ipuiúna,MG,Moximate WP 1x10kg,1260,38.0,47880.0,2026,4,Abril,Moximate,-22.0995,-46.1908,1404976.6,25/26,12
+305,Agricola Pinhotti,Congonhal,MG,Moximate WP 1x10kg,3150,34.0,107100.0,2026,4,Abril,Moximate,-22.1526,-46.0537,3308716.2,25/26,12
