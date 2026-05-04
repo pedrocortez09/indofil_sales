@@ -19,7 +19,7 @@ data = get_data('data/vendas.csv')
 def format_total(value):
     return '{:,.2f}'.format(value)
 
-data.columns = ['Revenda', 'Cidade', 'Produto', 'Quantidade', 'Preço', 'Total', 'Ano', 'Mes', 'Nome Mes', 'Produto Geral', 'Latitude', 'Longitude', 'Total Cidade', 'Safra', 'Mes Safra']
+data.columns = ['Revenda', 'Cidade', 'Estado', 'Produto', 'Quantidade', 'Preço', 'Total', 'Ano', 'Mes', 'Nome Mes', 'Produto Geral', 'Latitude', 'Longitude', 'Total Cidade', 'Safra', 'Mes Safra']
 
 
 
@@ -41,7 +41,7 @@ produto_filtro = st.sidebar.multiselect('Selecione um Produto', data['Produto Ge
 
 
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(['Planilha' ,'Faturamento', 'Produto', 'Mapa', 'Conclusões'])
+tab1, tab2, tab3, tab4 = st.tabs(['Planilha' ,'Faturamento', 'Produto', 'Mapa'])
 
 
 # ==================== APLICAÇÃO GLOBAL DOS FILTROS =====================
@@ -204,68 +204,3 @@ with tab4:
     st.plotly_chart(fig_mapa, use_container_width=True)
 
 # ========================== QUINTA ABA - CONCLUSÕES =======================================================================
-with tab5:
-    st.markdown('## Conclusões - Dez 2024')
-
-    # 1. Porcentagem de queda no faturamento
-    faturamento_2023 = data[data['Ano'] == 2023]['Total'].sum()
-    faturamento_2024 = data[data['Ano'] == 2024]['Total'].sum()
-    queda_faturamento = ((faturamento_2023 - faturamento_2024) / faturamento_2023) * 100
-    st.markdown(f"1. O faturamento caiu em 2024 representando uma queda de **{queda_faturamento:.2f}%** em relação a 2023.")
-
-    # 2. Novas revendas atingidas e as que deixaram de comprar
-    revendas_2023 = set(data[data['Ano'] == 2023]['Revenda'].unique())
-    revendas_2024 = set(data[data['Ano'] == 2024]['Revenda'].unique())
-    novas_revendas = len(revendas_2024 - revendas_2023)
-    revendas_perdidas = len(revendas_2023 - revendas_2024)
-    st.markdown(f"2. Em 2024, atingimos **{novas_revendas} novas revendas**, enquanto **{revendas_perdidas} revendas** deixaram de comprar em relação a 2023.")
-
-
-    st.markdown(f"3. O pico de vendas em 2023 foi em **Agosto** e em 2024 foi em **Março**.")
-    
-    # 4. Top 3 compradores de 2024
-    top_compradores_2024 = (
-        data[data['Ano'] == 2024]
-        .groupby('Revenda')['Total']
-        .sum()
-        .sort_values(ascending=False)
-        .head(3)
-    )
-    top_3_compradores = top_compradores_2024.index.tolist()
-    st.markdown(f"4. Os **Top 3 compradores de 2024** foram: **{', '.join(top_3_compradores)}**.")
-
-    # 5. Aumento do preço médio de Manfil e Moximate
-    manfil_preco_2023 = (
-        data[(data['Ano'] == 2023) & (data['Produto Geral'] == 'Manfil')]
-        ['Preço']
-        .mean()
-    )
-    manfil_preco_2024 = (
-        data[(data['Ano'] == 2024) & (data['Produto Geral'] == 'Manfil')]
-        ['Preço']
-        .mean()
-    )
-    moximate_preco_2023 = (
-        data[(data['Ano'] == 2023) & (data['Produto Geral'] == 'Moximate')]
-        ['Preço']
-        .mean()
-    )
-    moximate_preco_2024 = (
-        data[(data['Ano'] == 2024) & (data['Produto Geral'] == 'Moximate')]
-        ['Preço']
-        .mean()
-    )
-
-    aumento_manfil = ((manfil_preco_2024 - manfil_preco_2023) / manfil_preco_2023) * 100
-    aumento_moximate = ((moximate_preco_2024 - moximate_preco_2023) / moximate_preco_2023) * 100
-    st.markdown(f"5. O preço médio do **Manfil** aumentou **{aumento_manfil:.2f}%** de 2023 para 2024. O preço médio do **Moximate** aumentou **{aumento_moximate:.2f}%** no mesmo período.")
-
-    # 6. Produtos mais comprados em ambos os anos
-    produtos_mais_comprados = (
-        data.groupby('Produto Geral')['Quantidade']
-        .sum()
-        .sort_values(ascending=False)
-        .head(2)
-        .index.tolist()
-    )
-    st.markdown(f"6. Os produtos mais comprados em ambos os anos foram: **{produtos_mais_comprados[1]} de 25kg** e **{produtos_mais_comprados[0]} de 10kg**.")
